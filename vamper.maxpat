@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -802.0, -813.0, 1372.0, 779.0 ],
+		"rect" : [ 34.0, 87.0, 1191.0, 823.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -981,15 +981,14 @@
 				"box" : 				{
 					"fontname" : "Helvetica",
 					"id" : "obj-140",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1158.0, 1705.0, 125.0, 32.0 ],
+					"patching_rect" : [ 1158.0, 1705.0, 125.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 87.64349269442954, 573.174787970649732, 176.0, 20.0 ],
-					"text" : "Status.PROCESSING"
+					"text" : "Status.FINISHED"
 				}
 
 			}
@@ -1553,7 +1552,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1728.403408636680524, 2083.0, 420.0, 25.0 ],
-					"text" : "/Users/hugo/projects/wanderer/audio/vampnet-output-1056.wav"
+					"text" : "/Users/hugo/projects/wanderer/audio/vampnet-output-1006.wav"
 				}
 
 			}
@@ -1647,7 +1646,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 50.362059354782104, 747.596644023517683, 56.0, 25.0 ],
 					"restore" : 					{
-						"auto-generate" : [ 1 ],
+						"auto-generate" : [ 0 ],
 						"beatwidth" : [ 26.0 ],
 						"ckpt-name" : [ "spotdl" ],
 						"hostname" : [ "https://descript-vampnet.hf.space/" ],
@@ -1771,7 +1770,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 999.402436137199402, 1361.127657601856299, 1439.0, 41.0 ],
-					"text" : "/Users/hugo/miniconda3/bin/python /Users/hugo/projects/wanderer/vamp.py \"--audio_path /Users/hugo/projects/wanderer/audio/vampnet-input-1056.wav\" \"--output_path /Users/hugo/projects/wanderer/audio/vampnet-output-1056.wav\" \"--servername https://descript-vampnet.hf.space/\" \"--temp 1.0677\" \"--periodic_hint_freq 0\" \"--onset_mask_width 5\" \"--beat_mask_ms 26\" \"--downbeats_only 0\" \"--typical_filter 1\" \"--num_steps 36\" \"--checkpoint_name spotdl\""
+					"text" : "/Users/hugo/miniconda3/bin/python /Users/hugo/projects/wanderer/vamp.py \"--audio_path /Users/hugo/projects/wanderer/audio/vampnet-input-1006.wav\" \"--output_path /Users/hugo/projects/wanderer/audio/vampnet-output-1006.wav\" \"--servername https://descript-vampnet.hf.space/\" \"--temp 1.0677\" \"--periodic_hint_freq 0\" \"--onset_mask_width 5\" \"--beat_mask_ms 26\" \"--downbeats_only 0\" \"--typical_filter 0\" \"--num_steps 36\" \"--checkpoint_name spotdl\""
 				}
 
 			}
@@ -2724,7 +2723,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1728.403408636680524, 1975.789633750915527, 541.0, 25.0 ],
-					"text" : "STATUS Status.PROCESSING"
+					"text" : "/Users/hugo/projects/wanderer/audio/vampnet-output-1006.wav"
 				}
 
 			}
@@ -3076,7 +3075,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_initial" : [ 0 ],
+							"parameter_initial" : [ 26 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "beatwidth",
@@ -3172,7 +3171,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1753.947652086662174, 710.175425591980002, 381.273833999999852, 25.0 ],
-					"text" : "/Users/hugo/projects/wanderer/audio/vampnet-input-1056.wav"
+					"text" : "/Users/hugo/projects/wanderer/audio/vampnet-input-1006.wav"
 				}
 
 			}

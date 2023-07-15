@@ -247,7 +247,7 @@
 				}
 ,
 				"obj-5::obj-69" : 				{
-					"parameter_initial" : 0,
+					"parameter_initial" : 26,
 					"parameter_longname" : "beatwidth",
 					"parameter_range" : [ 0, 250 ],
 					"parameter_shortname" : "beat prompt (ms)",

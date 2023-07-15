@@ -4,6 +4,8 @@
 
 unloop is a looper that uses generative modeling to **not** repeat itself.
 
+watch a demo video here: [https://youtu.be/yzBI8Vcjd2s](https://youtu.be/yzBI8Vcjd2s). 
+
 unlooper leverages the power of [VampNet](https://hugo-does-things.notion.site/VampNet-Music-Generation-via-Masked-Acoustic-Token-Modeling-e37aabd0d5f1493aa42c5711d0764b33), a masked generative model for music, to generate variations of loop a musician has recorded, creating a more interactive and fun experience than using a traditional looper. 
 
 
@@ -28,4 +30,5 @@ pip install -e .
 ![python-path](assets/pythoninstall.png)
 
 
-Once you've done this, you're all set! Refer to the demo video for a [usage example](). 
+
+Once you've done this, you're all set! Refer to the demo video for a [usage example](https://youtu.be/yzBI8Vcjd2s). 

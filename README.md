@@ -13,6 +13,9 @@ unlooper leverages the power of [VampNet](https://hugo-does-things.notion.site/V
 
 unloop is a Max patch, but it requires python to contact the [huggingface space](https://huggingface.co/spaces/descript/vampnet) that hosts the VampNet model to generate the variations. 
 
+you will need to install the following max externals s well: [karma](https://github.com/rconstanzo/karma/tree/master) and [shell](https://github.com/jeremybernstein/shell). 
+
+
 First, clone the repo
 ```bash
 git clone https://github.com/hugofloresgarcia/unloop.git

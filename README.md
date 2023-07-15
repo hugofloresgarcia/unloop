@@ -22,16 +22,29 @@ git clone https://github.com/hugofloresgarcia/unloop.git
 cd unloop
 ```
 
+`unloop` requires Python 3 to be installed on your computer. 
 
-Then, install the local python package. 
+Then, install the local python package called `vamp`. 
 ```bash
-pip install -e .
+python -m pip install -e .
 ```
 
-**NOTE**: you'll need to know the path to the Python installation where you installed the vamp package. You'll need to enter this path in the max patch. 
+You'll need to keep track of where your python installation is, so copy the output of the following command:
+```bash
+which python
+```
+
+Your python path will look like this: `/some/path/to/bin/python`. 
+
+
+## Usage
+
+`unloop` is a Max patch, meaning that you'll need to open it using [Max MSP](https://cycling74.com/downloads).
+
+to open `unloop`, simply open `unloop.maxpat` using Max.
+
+**NOTE**: you'll need to know the path to the Python installation where you installed the `vamp` package. You'll need to enter this path in the max patch. 
 
 ![python-path](assets/pythoninstall.png)
-
-
 
 Once you've done this, you're all set! Refer to the demo video for a [usage example](https://youtu.be/yzBI8Vcjd2s). 

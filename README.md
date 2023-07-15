@@ -2,7 +2,7 @@
 
 <img src="assets/fullUI.png" width="60%">
 
-unloop is a looper that uses generative modeling to **not** repeat itself.
+unloop is a co-creative looper that uses generative modeling to **not** repeat itself.
 
 watch a demo video here: [https://youtu.be/yzBI8Vcjd2s](https://youtu.be/yzBI8Vcjd2s). 
 

@@ -1,6 +1,5 @@
 # unloop
 
-the image above, but at 50% width
 <img src="assets/fullUI.png" width="60%">
 
 unloop is a looper that uses generative modeling to **not** repeat itself.

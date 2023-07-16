@@ -955,8 +955,8 @@
 					"numinlets" : 5,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 946.162662739570806, 932.974032904060323, 211.0, 25.0 ],
-					"text" : "combine path / vamp / __main__.py"
+					"patching_rect" : [ 946.162662739570806, 932.974032904060323, 191.0, 25.0 ],
+					"text" : "combine path / unloop / unloop.py"
 				}
 
 			}
@@ -1553,7 +1553,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1728.403408636680524, 2083.0, 420.0, 25.0 ],
-					"text" : "/Users/hugo/projects/wanderer/audio/vampnet-output-1000.wav"
+					"text" : "/Users/hugo/projects/wanderer/audio/vampnet-output-1001.wav"
 				}
 
 			}
@@ -1771,7 +1771,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 999.402436137199402, 1361.127657601856299, 1439.0, 41.0 ],
-					"text" : "/Users/hugo/miniconda3/bin/python /Users/hugo/projects/wanderer/vamp/__main__.py \"--audio_path /Users/hugo/projects/wanderer/audio/vampnet-input-1000.wav\" \"--output_path /Users/hugo/projects/wanderer/audio/vampnet-output-1000.wav\" \"--servername https://descript-vampnet.hf.space/\" \"--temp 0.8000\" \"--periodic_hint_freq 0\" \"--onset_mask_width 0\" \"--beat_mask_ms 31\" \"--downbeats_only 0\" \"--typical_filter 0\" \"--num_steps 36\" \"--checkpoint_name spotdl\""
+					"text" : "/Users/hugo/miniconda3/bin/python vamp.py \"--audio_path /Users/hugo/projects/wanderer/audio/vampnet-input-1001.wav\" \"--output_path /Users/hugo/projects/wanderer/audio/vampnet-output-1001.wav\" \"--servername https://descript-vampnet.hf.space/\" \"--temp 0.8000\" \"--periodic_hint_freq 0\" \"--onset_mask_width 0\" \"--beat_mask_ms 31\" downbeats typical \"--num_steps 36\" \"--checkpoint_name spotdl\""
 				}
 
 			}
@@ -2719,12 +2719,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-117",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1728.403408636680524, 1975.789633750915527, 541.0, 25.0 ],
-					"text" : "STATUS Status.PROCESSING"
+					"patching_rect" : [ 1728.403408636680524, 1975.789633750915527, 541.0, 41.0 ],
+					"text" : "/Users/hugo/miniconda3/bin/python: can't open file '/Users/hugo/vamp.py': [Errno 2] No such file or directory"
 				}
 
 			}
@@ -3172,7 +3173,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1753.947652086662174, 710.175425591980002, 381.273833999999852, 25.0 ],
-					"text" : "/Users/hugo/projects/wanderer/audio/vampnet-input-1000.wav"
+					"text" : "/Users/hugo/projects/wanderer/audio/vampnet-input-1001.wav"
 				}
 
 			}

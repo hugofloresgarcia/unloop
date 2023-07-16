@@ -5,7 +5,6 @@ from gradio_client import Client
 
 
 
-@argbind.bind(without_prefix=True)
 def vamp(
     servername: str = "http://127.0.0.1:7860/", 
     audio_path: str = "vampnet-input.wav", 
@@ -53,8 +52,9 @@ def vamp(
     while not job.done():
         print(f"STATUS {job.status().code}")
 
+Vamp = argbind.bind(without_prefix=True)(vamp)
 if __name__ == "__main__":
     args = argbind.parse_args()
 
     with argbind.scope(args):
-        vamp()
+        Vamp()

@@ -34,7 +34,7 @@ You'll need to keep track of where your python installation is, so copy the outp
 which python
 ```
 
-Your python path will look like this: `/some/path/to/bin/python`. 
+Your python path will look like this: `/some/path/to/bin/python`. Copy that string! You'll need it later.
 
 
 ## Usage

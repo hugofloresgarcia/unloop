@@ -226,11 +226,21 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-5::obj-101" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-5::obj-133" : 				{
+					"parameter_initial" : -6
+				}
+,
 				"obj-5::obj-19" : 				{
 					"parameter_longname" : "live.gain~"
 				}
 ,
 				"obj-5::obj-62" : 				{
+					"parameter_initial" : 1.2,
 					"parameter_longname" : "temperature",
 					"parameter_shortname" : "temperature"
 				}

@@ -473,7 +473,7 @@
 					"presentation_rect" : [ 569.428408195606153, 386.260419220237736, 30.0, 115.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ -40 ],
+							"parameter_initial" : [ -6 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.gain~[6]",
 							"parameter_mmax" : 6.0,
@@ -952,11 +952,11 @@
 				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
+					"numinlets" : 5,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 946.162662739570806, 932.974032904060323, 137.0, 25.0 ],
-					"text" : "combine path / vamp.py"
+					"patching_rect" : [ 946.162662739570806, 932.974032904060323, 211.0, 25.0 ],
+					"text" : "combine path / vamp / __main__.py"
 				}
 
 			}
@@ -981,14 +981,15 @@
 				"box" : 				{
 					"fontname" : "Helvetica",
 					"id" : "obj-140",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1158.0, 1705.0, 125.0, 20.0 ],
+					"patching_rect" : [ 1158.0, 1705.0, 125.0, 32.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 87.64349269442954, 573.174787970649732, 176.0, 20.0 ],
-					"text" : "Status.FINISHED"
+					"text" : "Status.PROCESSING"
 				}
 
 			}
@@ -1552,7 +1553,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1728.403408636680524, 2083.0, 420.0, 25.0 ],
-					"text" : "/Users/hugo/projects/wanderer/audio/vampnet-output-1006.wav"
+					"text" : "/Users/hugo/projects/wanderer/audio/vampnet-output-1000.wav"
 				}
 
 			}
@@ -1647,17 +1648,17 @@
 					"patching_rect" : [ 50.362059354782104, 747.596644023517683, 56.0, 25.0 ],
 					"restore" : 					{
 						"auto-generate" : [ 0 ],
-						"beatwidth" : [ 26.0 ],
+						"beatwidth" : [ 31.0 ],
 						"ckpt-name" : [ "spotdl" ],
 						"hostname" : [ "https://descript-vampnet.hf.space/" ],
 						"hostname[1]" : [ "/Users/hugo/miniconda3/bin/python" ],
 						"live.gain~" : [ -70.0 ],
-						"live.gain~[1]" : [ -70.0 ],
+						"live.gain~[1]" : [ -11.321284562592695 ],
 						"numsteps" : [ 36.0 ],
-						"onsetmask" : [ 5.0 ],
+						"onsetmask" : [ 0.0 ],
 						"periodic prompt" : [ 0.0 ],
 						"run-btn" : [ 1.0 ],
-						"temperature" : [ 1.067716535433071 ]
+						"temperature" : [ 0.800000000000001 ]
 					}
 ,
 					"text" : "autopattr",
@@ -1770,7 +1771,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 999.402436137199402, 1361.127657601856299, 1439.0, 41.0 ],
-					"text" : "/Users/hugo/miniconda3/bin/python /Users/hugo/projects/wanderer/vamp.py \"--audio_path /Users/hugo/projects/wanderer/audio/vampnet-input-1006.wav\" \"--output_path /Users/hugo/projects/wanderer/audio/vampnet-output-1006.wav\" \"--servername https://descript-vampnet.hf.space/\" \"--temp 1.0677\" \"--periodic_hint_freq 0\" \"--onset_mask_width 5\" \"--beat_mask_ms 26\" \"--downbeats_only 0\" \"--typical_filter 0\" \"--num_steps 36\" \"--checkpoint_name spotdl\""
+					"text" : "/Users/hugo/miniconda3/bin/python /Users/hugo/projects/wanderer/vamp/__main__.py \"--audio_path /Users/hugo/projects/wanderer/audio/vampnet-input-1000.wav\" \"--output_path /Users/hugo/projects/wanderer/audio/vampnet-output-1000.wav\" \"--servername https://descript-vampnet.hf.space/\" \"--temp 0.8000\" \"--periodic_hint_freq 0\" \"--onset_mask_width 0\" \"--beat_mask_ms 31\" \"--downbeats_only 0\" \"--typical_filter 0\" \"--num_steps 36\" \"--checkpoint_name spotdl\""
 				}
 
 			}
@@ -2723,7 +2724,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1728.403408636680524, 1975.789633750915527, 541.0, 25.0 ],
-					"text" : "/Users/hugo/projects/wanderer/audio/vampnet-output-1006.wav"
+					"text" : "STATUS Status.PROCESSING"
 				}
 
 			}
@@ -2746,7 +2747,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_initial" : [ 0 ],
+							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "onsetmask",
@@ -3147,7 +3148,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_initial" : [ 0.8 ],
+							"parameter_initial" : [ 1.2 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "temperature",
@@ -3171,7 +3172,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1753.947652086662174, 710.175425591980002, 381.273833999999852, 25.0 ],
-					"text" : "/Users/hugo/projects/wanderer/audio/vampnet-input-1006.wav"
+					"text" : "/Users/hugo/projects/wanderer/audio/vampnet-input-1000.wav"
 				}
 
 			}

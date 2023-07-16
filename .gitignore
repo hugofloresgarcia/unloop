@@ -2,3 +2,9 @@
 *.mp4
 
 audio/*
+py-js/
+build/
+
+# python package files
+__pycache__/
+*.egg-info/

@@ -24,7 +24,7 @@ cd unloop
 
 `unloop` requires Python 3 to be installed on your computer. 
 
-Then, install the local python package called `vamp`. 
+Then, install the local python package called `unloop`. 
 ```bash
 python -m pip install -e .
 ```

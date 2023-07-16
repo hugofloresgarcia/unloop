@@ -1,11 +1,11 @@
 from setuptools import setup
 
 setup(
-    name='vamp',
+    name='unloop',
     version='1.0',
     install_requires=[
         'argbind',
         'gradio-client',
     ], 
-    packages=['vamp'],
+    packages=['unloop'],
 )

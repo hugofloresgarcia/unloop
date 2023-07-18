@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1191.0, 823.0 ],
+		"rect" : [ 34.0, 87.0, 1612.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,78 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-180",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1582.0, 1521.0, 30.0, 25.0 ],
+					"text" : "r kill"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-176",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1145.0, 1606.0, 155.0, 25.0 ],
+					"text" : "loadmess Status.STARTED"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-173",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 276.0, 55.77278764321909, 42.0, 25.0 ],
+					"text" : "r clear"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-172",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 217.362059354782104, 55.77278764321909, 38.0, 25.0 ],
+					"text" : "r stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-110",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 166.362059354782104, 55.77278764321909, 38.0, 25.0 ],
+					"text" : "r play"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-97",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 93.0, 55.77278764321909, 32.0, 25.0 ],
+					"text" : "r rec"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-171",
 					"maxclass" : "newobj",
@@ -442,7 +514,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 71.334023584953343, 64.93434831665445, 30.0, 30.0 ]
+					"patching_rect" : [ 23.071980535984039, 40.448764156288235, 30.0, 30.0 ]
 				}
 
 			}
@@ -475,7 +547,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ -6 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.gain~[6]",
+							"parameter_longname" : "live.gain~[4]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "live.gain~",
@@ -1553,7 +1625,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1728.403408636680524, 2083.0, 420.0, 25.0 ],
-					"text" : "/Users/hugo/projects/wanderer/audio/vampnet-output-1001.wav"
+					"text" : "/Users/hugo/projects/wanderer/audio/vampnet-output-1068.wav"
 				}
 
 			}
@@ -1647,18 +1719,18 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 50.362059354782104, 747.596644023517683, 56.0, 25.0 ],
 					"restore" : 					{
-						"auto-generate" : [ 0 ],
-						"beatwidth" : [ 31.0 ],
+						"auto-generate" : [ 1 ],
+						"beatwidth" : [ 50.0 ],
 						"ckpt-name" : [ "spotdl" ],
-						"hostname" : [ "https://descript-vampnet.hf.space/" ],
+						"hostname" : [ "http://localhost:7860/" ],
 						"hostname[1]" : [ "/Users/hugo/miniconda3/bin/python" ],
 						"live.gain~" : [ -70.0 ],
-						"live.gain~[1]" : [ -11.321284562592695 ],
+						"live.gain~[1]" : [ 1.492001707657977 ],
 						"numsteps" : [ 36.0 ],
 						"onsetmask" : [ 0.0 ],
 						"periodic prompt" : [ 0.0 ],
 						"run-btn" : [ 1.0 ],
-						"temperature" : [ 0.800000000000001 ]
+						"temperature" : [ 2.0 ]
 					}
 ,
 					"text" : "autopattr",
@@ -1733,7 +1805,7 @@
 					"patching_rect" : [ 1898.244205832481384, 924.76824060801323, 189.0, 30.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 30.071980535984039, 645.946945878135693, 239.0, 26.811594009399414 ],
-					"text" : "https://descript-vampnet.hf.space/",
+					"text" : "http://localhost:7860/",
 					"varname" : "hostname"
 				}
 
@@ -1771,7 +1843,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 999.402436137199402, 1361.127657601856299, 1439.0, 41.0 ],
-					"text" : "/Users/hugo/miniconda3/bin/python vamp.py \"--audio_path /Users/hugo/projects/wanderer/audio/vampnet-input-1001.wav\" \"--output_path /Users/hugo/projects/wanderer/audio/vampnet-output-1001.wav\" \"--servername https://descript-vampnet.hf.space/\" \"--temp 0.8000\" \"--periodic_hint_freq 0\" \"--onset_mask_width 0\" \"--beat_mask_ms 31\" downbeats typical \"--num_steps 36\" \"--checkpoint_name spotdl\""
+					"text" : "/Users/hugo/miniconda3/bin/python /Users/hugo/projects/wanderer/unloop/unloop.py \"--audio_path /Users/hugo/projects/wanderer/audio/vampnet-input-1068.wav\" \"--output_path /Users/hugo/projects/wanderer/audio/vampnet-output-1068.wav\" \"--servername http://localhost:7860/\" \"--temp 0.6803\" \"--periodic_hint_freq 8\" \"--onset_mask_width 10\" \"--beat_mask_ms 0\" \"--downbeats_only 0\" \"--typical_filter 0\" \"--num_steps 36\" \"--checkpoint_name spotdl\""
 				}
 
 			}
@@ -2719,13 +2791,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-117",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1728.403408636680524, 1975.789633750915527, 541.0, 41.0 ],
-					"text" : "/Users/hugo/miniconda3/bin/python: can't open file '/Users/hugo/vamp.py': [Errno 2] No such file or directory"
+					"patching_rect" : [ 1728.403408636680524, 1975.789633750915527, 541.0, 25.0 ],
+					"text" : "STATUS Status.PROCESSING"
 				}
 
 			}
@@ -2751,7 +2822,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "onsetmask",
+							"parameter_longname" : "onsetmask[1]",
 							"parameter_mmax" : 255.0,
 							"parameter_shortname" : "onset mask",
 							"parameter_type" : 1,
@@ -3044,7 +3115,7 @@
 							"parameter_initial" : [ 36 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "numsteps",
+							"parameter_longname" : "numsteps[1]",
 							"parameter_mmax" : 64.0,
 							"parameter_mmin" : 12.0,
 							"parameter_shortname" : "steps",
@@ -3080,7 +3151,7 @@
 							"parameter_initial" : [ 26 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "beatwidth",
+							"parameter_longname" : "beatwidth[1]",
 							"parameter_mmax" : 250.0,
 							"parameter_shortname" : "beat prompt (ms)",
 							"parameter_type" : 1,
@@ -3116,7 +3187,7 @@
 							"parameter_initial" : [ 13 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "periodic prompt",
+							"parameter_longname" : "periodic prompt[1]",
 							"parameter_mmax" : 255.0,
 							"parameter_shortname" : "periodic prompt",
 							"parameter_steps" : 600,
@@ -3152,7 +3223,7 @@
 							"parameter_initial" : [ 1.2 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "temperature",
+							"parameter_longname" : "temperature[1]",
 							"parameter_mmax" : 2.0,
 							"parameter_shortname" : "temperature",
 							"parameter_type" : 0,
@@ -3173,7 +3244,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1753.947652086662174, 710.175425591980002, 381.273833999999852, 25.0 ],
-					"text" : "/Users/hugo/projects/wanderer/audio/vampnet-input-1001.wav"
+					"text" : "/Users/hugo/projects/wanderer/audio/vampnet-input-1068.wav"
 				}
 
 			}
@@ -3396,7 +3467,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ -40 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.gain~",
+							"parameter_longname" : "live.gain~[3]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "live.gain~",
@@ -3667,6 +3738,13 @@
 					"destination" : [ "obj-8", 0 ],
 					"midpoints" : [ 3441.775962462058942, 844.0, 3441.775962462058942, 844.0 ],
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-155", 0 ],
+					"source" : [ "obj-110", 0 ]
 				}
 
 			}
@@ -4075,6 +4153,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-156", 0 ],
+					"source" : [ "obj-172", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-163", 0 ],
+					"source" : [ "obj-173", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-153", 0 ],
 					"order" : 1,
 					"source" : [ "obj-174", 0 ]
@@ -4098,6 +4190,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-140", 1 ],
+					"source" : [ "obj-176", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-174", 0 ],
 					"source" : [ "obj-179", 0 ]
 				}
@@ -4108,6 +4207,13 @@
 					"destination" : [ "obj-21", 0 ],
 					"midpoints" : [ 2426.5, 235.0, 2426.5, 235.0 ],
 					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-114", 0 ],
+					"source" : [ "obj-180", 0 ]
 				}
 
 			}
@@ -4801,6 +4907,13 @@
 					"destination" : [ "obj-14", 0 ],
 					"midpoints" : [ 1826.495936617301822, 151.0, 1826.280925964393418, 151.0 ],
 					"source" : [ "obj-93", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-148", 0 ],
+					"source" : [ "obj-97", 0 ]
 				}
 
 			}

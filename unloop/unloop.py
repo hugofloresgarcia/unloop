@@ -48,7 +48,6 @@ def vamp(
         num_steps,	# int | float (numeric value between 1 and 128) in 'number of steps (should normally be between 12 and 36)' Slider component
         0,	# int | float (numeric value between 0.0 and 1.0) in 'mask dropout' Slider component
         0,	# int | float  in 'seed (0 for random)' Number component
-        "none",	# str (Option from: ['machines', 'xeno-canto', 'none']) in 'finetune name' Dropdown component
         api_name="/vamp", 
         result_callbacks=save_output
     )

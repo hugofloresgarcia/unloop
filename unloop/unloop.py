@@ -38,13 +38,17 @@ def vamp(
         1.0,	# int | float (numeric value between 0 and 64) in 'time stretch factor' Slider component
         0,	# int | float (numeric value between 0.0 and 10.0) in 'prefix hint length (seconds)' Slider component
         0,	# int | float (numeric value between 0.0 and 10.0) in 'suffix hint length (seconds)' Slider component
-        temp,	# int | float (numeric value between 0.0 and 10.0) in 'temperature' Slider component
+        1.5,	# int | float (numeric value between 0.0 and 10.0) in 'mask temperature' Slider component
+        temp,	# int | float (numeric value between 0.1 and 2.0) in 'sample temperature' Slider component
+        0,	# int | float (numeric value between 0.0 and 1.0) in 'top p (0.0 = off)' Slider component
         bool(typical_filter),	# bool  in 'typical filtering ' Checkbox component
         0.15,	# int | float (numeric value between 0.01 and 0.99) in 'typical mass (should probably stay between 0.1 and 0.5)' Slider component
         1,	# int | float (numeric value between 1 and 256) in 'typical min tokens (should probably stay between 1 and 256)' Slider component
         True,	# bool  in 'use coarse2fine' Checkbox component
         num_steps,	# int | float (numeric value between 1 and 128) in 'number of steps (should normally be between 12 and 36)' Slider component
         0,	# int | float (numeric value between 0.0 and 1.0) in 'mask dropout' Slider component
+        0,	# int | float  in 'seed (0 for random)' Number component
+        "none",	# str (Option from: ['machines', 'xeno-canto', 'none']) in 'finetune name' Dropdown component
         api_name="/vamp", 
         result_callbacks=save_output
     )

@@ -40,6 +40,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-180",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 3249.587116757966669, 754.561984067985577, 58.0, 25.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-179",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 3673.587116757966214, 735.561984067985577, 58.0, 25.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-170",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -439,7 +463,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2219.045984223551841, -832.794671420745544, 104.0, 25.0 ],
+					"patching_rect" : [ 2219.045984223551841, -832.794671420745544, 105.0, 25.0 ],
 					"text" : "r #0-load-vamp"
 				}
 
@@ -451,7 +475,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2340.045984223551841, -832.794671420745544, 79.0, 25.0 ],
+					"patching_rect" : [ 2340.045984223551841, -832.794671420745544, 80.0, 25.0 ],
 					"text" : "r #0-buflen"
 				}
 
@@ -1044,7 +1068,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 3038.996590584953083, -870.737188593277324, 118.0, 25.0 ],
+					"patching_rect" : [ 3038.996590584953083, -870.737188593277324, 119.0, 25.0 ],
 					"text" : "r #0-msg-overdub"
 				}
 
@@ -1068,7 +1092,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 354.99659058495331, 98.27278764321909, 118.0, 25.0 ],
+					"patching_rect" : [ 354.99659058495331, 98.27278764321909, 119.0, 25.0 ],
 					"text" : "r #0-msg-overdub"
 				}
 
@@ -1104,7 +1128,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 585.366117274081375, 2.0, 120.0, 25.0 ],
+					"patching_rect" : [ 585.366117274081375, 2.0, 121.0, 25.0 ],
 					"text" : "s #0-msg-overdub"
 				}
 
@@ -1184,8 +1208,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 3867.587116757966669, 894.0, 127.0, 25.0 ],
-					"text" : "prepend --dropout"
+					"patching_rect" : [ 3867.587116757966669, 894.0, 92.0, 25.0 ],
+					"text" : "prepend --seed"
 				}
 
 			}
@@ -1345,7 +1369,7 @@
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "live.gain~[13]",
+							"parameter_longname" : "drygain",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "live.gain~",
@@ -1426,7 +1450,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2742.480479169495993, -933.698748906288301, 91.0, 25.0 ],
+					"patching_rect" : [ 2742.480479169495993, -933.698748906288301, 92.0, 25.0 ],
 					"text" : "r #0-msg-rec"
 				}
 
@@ -1438,7 +1462,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2961.0, -933.698748906288301, 97.0, 25.0 ],
+					"patching_rect" : [ 2961.0, -933.698748906288301, 98.0, 25.0 ],
 					"text" : "r #0-msg-stop"
 				}
 
@@ -1720,7 +1744,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "dropout[1]",
+							"parameter_longname" : "dropout",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "dropout",
 							"parameter_type" : 0,
@@ -1801,7 +1825,7 @@
 							"parameter_initial" : [ 7 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "periodic prompt[2]",
+							"parameter_longname" : "periodic prompt[3]",
 							"parameter_mmax" : 31.0,
 							"parameter_shortname" : "periodic prompt",
 							"parameter_steps" : 600,
@@ -2090,7 +2114,7 @@
 							"parameter_initial" : [ 256 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number",
+							"parameter_longname" : "number[1]",
 							"parameter_shortname" : "number",
 							"parameter_type" : 3
 						}
@@ -2506,7 +2530,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.gain~[6]",
+							"parameter_longname" : "live.gain~[7]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "live.gain~",
@@ -3532,7 +3556,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1725.403408636680524, 2235.0, 420.0, 25.0 ],
-					"text" : "/Users/hugo/projects/wanderer/audio/vampnet-output-1192.wav"
+					"text" : "/Users/hugo/projects/wanderer/audio/vampnet-output-1000.wav"
 				}
 
 			}
@@ -4600,7 +4624,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "onsetmask",
+							"parameter_longname" : "onsetmask[1]",
 							"parameter_mmax" : 100.0,
 							"parameter_shortname" : "onset mask",
 							"parameter_type" : 1,
@@ -4866,7 +4890,7 @@
 							"parameter_initial" : [ 36 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "numsteps",
+							"parameter_longname" : "numsteps[1]",
 							"parameter_mmax" : 64.0,
 							"parameter_mmin" : 12.0,
 							"parameter_shortname" : "steps",
@@ -4902,7 +4926,7 @@
 							"parameter_initial" : [ 26 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "beatwidth",
+							"parameter_longname" : "beatwidth[1]",
 							"parameter_mmax" : 250.0,
 							"parameter_shortname" : "beat prompt (ms)",
 							"parameter_type" : 1,
@@ -4937,8 +4961,8 @@
 							"parameter_initial" : [ 1.2 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "temperature",
-							"parameter_mmax" : 100.0,
+							"parameter_longname" : "temperature[1]",
+							"parameter_mmax" : 10.0,
 							"parameter_shortname" : "temperature",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -4958,7 +4982,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1753.947652086662174, 710.175425591980002, 381.273833999999852, 25.0 ],
-					"text" : "/Users/hugo/projects/wanderer/audio/vampnet-input-1192.wav"
+					"text" : "/Users/hugo/projects/wanderer/audio/vampnet-input-1000.wav"
 				}
 
 			}
@@ -5183,7 +5207,7 @@
 							"parameter_initial" : [ 256 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[4]",
+							"parameter_longname" : "number[3]",
 							"parameter_shortname" : "number",
 							"parameter_type" : 3
 						}
@@ -6542,8 +6566,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-121", 0 ],
+					"source" : [ "obj-179", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-70", 0 ],
+					"source" : [ "obj-180", 0 ]
 				}
 
 			}

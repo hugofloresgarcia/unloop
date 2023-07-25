@@ -18,6 +18,7 @@ def vamp(
     num_steps: int = 32,
     checkpoint_name: str = "spotdl", 
     dropout: float = 0.0,
+    seed: int = 0,
 ):
     # print(dir(Client))
     client = Client(servername, verbose=False)
@@ -49,7 +50,7 @@ def vamp(
         True,	# bool  in 'use coarse2fine' Checkbox component
         num_steps,	# int | float (numeric value between 1 and 128) in 'number of steps (should normally be between 12 and 36)' Slider component
         dropout,	# int | float (numeric value between 0.0 and 1.0) in 'mask dropout' Slider component
-        0,	# int | float  in 'seed (0 for random)' Number component
+        seed,	# int | float  in 'seed (0 for random)' Number component
         "None", # lora-choice
         api_name="/vamp", 
         result_callbacks=save_output

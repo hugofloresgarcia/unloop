@@ -1,0 +1,889 @@
+{
+	"pattrstorage" : 	{
+		"name" : "alter",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"four" : [ -26.094488188976371 ],
+					"gain-one" : [ -4.141732283464563 ],
+					"input-gain" : [ -0.036670878400201 ],
+					"led" : [ 0 ],
+					"livein" : [ -9.952755905511808 ],
+					"number" : [ 0 ],
+					"panfour" : [ 0.15748031496063 ],
+					"panone" : [ 0.291338582677165 ],
+					"panthree" : [ 0.700787401574803 ],
+					"pantwo" : [ 0.850393700787402 ],
+					"panzero" : [ 0.503937007874016 ],
+					"playlist~" : [ 						{
+							"data" : 							{
+								"clips" : [ 									{
+										"absolutepath" : "/Users/hugo/projects/alter-ego/alter ego/IIc.mp3",
+										"filename" : "IIc.mp3",
+										"filekind" : "audiofile",
+										"id" : "u874006334",
+										"loop" : 0,
+										"content_state" : 										{
+
+										}
+
+									}
+ ]
+							}
+
+						}
+ ],
+					"three" : [ 3.606299212598415 ],
+					"toggle" : [ 0 ],
+					"toggle[1]" : [ 0 ],
+					"two" : [ 2.960629921259837 ],
+					"unl1toggle" : [ 0 ],
+					"unl2" : [ 0 ],
+					"vamper::atypical" : [ 0 ],
+					"vamper::auto-generate" : [ 0 ],
+					"vamper::beatwidth" : [ 0.0 ],
+					"vamper::ckpt-name" : [ "spotdl" ],
+					"vamper::downbeatstoggle" : [ 0 ],
+					"vamper::dropout" : [ 0.0 ],
+					"vamper::drygain" : [ 0.0 ],
+					"vamper::feedback" : [ 0 ],
+					"vamper::hostname" : [ "http://localhost:7861/" ],
+					"vamper::hostname[1]" : [ "/Users/hugo/miniconda3/bin/python" ],
+					"vamper::mutebutton" : [ 1 ],
+					"vamper::number" : [ 2048 ],
+					"vamper::number[1]" : [ 1024 ],
+					"vamper::numsteps" : [ 36.0 ],
+					"vamper::onsetmask" : [ 33.0 ],
+					"vamper::overdub" : [ 0.8 ],
+					"vamper::periodic prompt[2]" : [ 3.0 ],
+					"vamper::presetname" : [ 0 ],
+					"vamper::rectoggle" : [ 1 ],
+					"vamper::seed" : [ 0 ],
+					"vamper::temperature" : [ 1.0 ],
+					"vamper::textbutton[1]" : [ 1 ],
+					"vamper::wetgain" : [ 0.0 ],
+					"vamper[1]::atypical" : [ 0 ],
+					"vamper[1]::auto-generate" : [ 0 ],
+					"vamper[1]::beatwidth" : [ 0.0 ],
+					"vamper[1]::ckpt-name" : [ "spotdl" ],
+					"vamper[1]::downbeatstoggle" : [ 0 ],
+					"vamper[1]::dropout" : [ 0.0 ],
+					"vamper[1]::drygain" : [ 0.0 ],
+					"vamper[1]::feedback" : [ 0 ],
+					"vamper[1]::hostname" : [ "http://localhost:7860/" ],
+					"vamper[1]::hostname[1]" : [ "/Users/hugo/miniconda3/bin/python" ],
+					"vamper[1]::mutebutton" : [ 0 ],
+					"vamper[1]::number" : [ 2048 ],
+					"vamper[1]::number[1]" : [ 1024 ],
+					"vamper[1]::numsteps" : [ 36.0 ],
+					"vamper[1]::onsetmask" : [ 33.0 ],
+					"vamper[1]::overdub" : [ 0.8 ],
+					"vamper[1]::periodic prompt[2]" : [ 3.0 ],
+					"vamper[1]::presetname" : [ 0 ],
+					"vamper[1]::rectoggle" : [ 1 ],
+					"vamper[1]::seed" : [ 0 ],
+					"vamper[1]::temperature" : [ 1.0 ],
+					"vamper[1]::textbutton[1]" : [ 1 ],
+					"vamper[1]::wetgain" : [ 0.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"four" : [ -26.094488188976371 ],
+					"gain-one" : [ -7.049533167291258 ],
+					"input-gain" : [ -0.036670878400201 ],
+					"led" : [ 0 ],
+					"livein" : [ -9.952755905511808 ],
+					"number" : [ 574 ],
+					"panfour" : [ 0.15748031496063 ],
+					"panone" : [ 0.291338582677165 ],
+					"panthree" : [ 0.700787401574803 ],
+					"pantwo" : [ 0.724409448818898 ],
+					"panzero" : [ 0.503937007874016 ],
+					"playlist~" : [ 						{
+							"data" : 							{
+								"clips" : [ 									{
+										"absolutepath" : "/Users/hugo/projects/alter-ego/alter ego/IIc.mp3",
+										"filename" : "IIc.mp3",
+										"filekind" : "audiofile",
+										"id" : "u874006334",
+										"loop" : 0,
+										"content_state" : 										{
+
+										}
+
+									}
+ ]
+							}
+
+						}
+ ],
+					"three" : [ 3.606299212598415 ],
+					"toggle" : [ 0 ],
+					"toggle[1]" : [ 0 ],
+					"two" : [ -3.496062992125985 ],
+					"unl1toggle" : [ 1 ],
+					"unl2" : [ 1 ],
+					"vamper::atypical" : [ 0 ],
+					"vamper::auto-generate" : [ 1 ],
+					"vamper::beatwidth" : [ 0.0 ],
+					"vamper::ckpt-name" : [ "spotdl" ],
+					"vamper::downbeatstoggle" : [ 0 ],
+					"vamper::dropout" : [ 0.0 ],
+					"vamper::drygain" : [ 0.0 ],
+					"vamper::feedback" : [ 0 ],
+					"vamper::hostname" : [ "http://localhost:7861/" ],
+					"vamper::hostname[1]" : [ "/Users/hugo/miniconda3/bin/python" ],
+					"vamper::mutebutton" : [ 1 ],
+					"vamper::number" : [ 2048 ],
+					"vamper::number[1]" : [ 1024 ],
+					"vamper::numsteps" : [ 36.0 ],
+					"vamper::onsetmask" : [ 33.0 ],
+					"vamper::overdub" : [ 0.8 ],
+					"vamper::periodic prompt[2]" : [ 3.0 ],
+					"vamper::presetname" : [ 0 ],
+					"vamper::rectoggle" : [ 0 ],
+					"vamper::seed" : [ 0 ],
+					"vamper::temperature" : [ 1.0 ],
+					"vamper::textbutton[1]" : [ 0 ],
+					"vamper::wetgain" : [ 0.0 ],
+					"vamper[1]::atypical" : [ 0 ],
+					"vamper[1]::auto-generate" : [ 1 ],
+					"vamper[1]::beatwidth" : [ 0.0 ],
+					"vamper[1]::ckpt-name" : [ "spotdl" ],
+					"vamper[1]::downbeatstoggle" : [ 0 ],
+					"vamper[1]::dropout" : [ 0.0 ],
+					"vamper[1]::drygain" : [ 0.0 ],
+					"vamper[1]::feedback" : [ 0 ],
+					"vamper[1]::hostname" : [ "http://localhost:7860/" ],
+					"vamper[1]::hostname[1]" : [ "/Users/hugo/miniconda3/bin/python" ],
+					"vamper[1]::mutebutton" : [ 0 ],
+					"vamper[1]::number" : [ 2048 ],
+					"vamper[1]::number[1]" : [ 1024 ],
+					"vamper[1]::numsteps" : [ 36.0 ],
+					"vamper[1]::onsetmask" : [ 33.0 ],
+					"vamper[1]::overdub" : [ 0.8 ],
+					"vamper[1]::periodic prompt[2]" : [ 3.0 ],
+					"vamper[1]::presetname" : [ 0 ],
+					"vamper[1]::rectoggle" : [ 0 ],
+					"vamper[1]::seed" : [ 0 ],
+					"vamper[1]::temperature" : [ 1.0 ],
+					"vamper[1]::textbutton[1]" : [ 0 ],
+					"vamper[1]::wetgain" : [ 0.0 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"four" : [ -26.094488188976371 ],
+					"gain-one" : [ -7.049533167291258 ],
+					"input-gain" : [ -0.036670878400201 ],
+					"led" : [ 0 ],
+					"livein" : [ -9.952755905511808 ],
+					"number" : [ 649 ],
+					"panfour" : [ 0.15748031496063 ],
+					"panone" : [ 0.291338582677165 ],
+					"panthree" : [ 0.700787401574803 ],
+					"pantwo" : [ 0.724409448818898 ],
+					"panzero" : [ 0.503937007874016 ],
+					"playlist~" : [ 						{
+							"data" : 							{
+								"clips" : [ 									{
+										"absolutepath" : "/Users/hugo/projects/alter-ego/alter ego/IIc.mp3",
+										"filename" : "IIc.mp3",
+										"filekind" : "audiofile",
+										"id" : "u874006334",
+										"loop" : 0,
+										"content_state" : 										{
+
+										}
+
+									}
+ ]
+							}
+
+						}
+ ],
+					"three" : [ 3.606299212598415 ],
+					"toggle" : [ 0 ],
+					"toggle[1]" : [ 0 ],
+					"two" : [ -3.496062992125985 ],
+					"unl1toggle" : [ 0 ],
+					"unl2" : [ 0 ],
+					"vamper::atypical" : [ 0 ],
+					"vamper::auto-generate" : [ 1 ],
+					"vamper::beatwidth" : [ 0.0 ],
+					"vamper::ckpt-name" : [ "spotdl" ],
+					"vamper::downbeatstoggle" : [ 0 ],
+					"vamper::dropout" : [ 0.0 ],
+					"vamper::drygain" : [ 0.0 ],
+					"vamper::feedback" : [ 0 ],
+					"vamper::hostname" : [ "http://localhost:7861/" ],
+					"vamper::hostname[1]" : [ "/Users/hugo/miniconda3/bin/python" ],
+					"vamper::mutebutton" : [ 1 ],
+					"vamper::number" : [ 2048 ],
+					"vamper::number[1]" : [ 1024 ],
+					"vamper::numsteps" : [ 36.0 ],
+					"vamper::onsetmask" : [ 33.0 ],
+					"vamper::overdub" : [ 0.8 ],
+					"vamper::periodic prompt[2]" : [ 3.0 ],
+					"vamper::presetname" : [ 0 ],
+					"vamper::rectoggle" : [ 0 ],
+					"vamper::seed" : [ 0 ],
+					"vamper::temperature" : [ 1.0 ],
+					"vamper::textbutton[1]" : [ 0 ],
+					"vamper::wetgain" : [ 0.0 ],
+					"vamper[1]::atypical" : [ 0 ],
+					"vamper[1]::auto-generate" : [ 1 ],
+					"vamper[1]::beatwidth" : [ 0.0 ],
+					"vamper[1]::ckpt-name" : [ "spotdl" ],
+					"vamper[1]::downbeatstoggle" : [ 0 ],
+					"vamper[1]::dropout" : [ 0.0 ],
+					"vamper[1]::drygain" : [ 0.0 ],
+					"vamper[1]::feedback" : [ 0 ],
+					"vamper[1]::hostname" : [ "http://localhost:7860/" ],
+					"vamper[1]::hostname[1]" : [ "/Users/hugo/miniconda3/bin/python" ],
+					"vamper[1]::mutebutton" : [ 0 ],
+					"vamper[1]::number" : [ 2048 ],
+					"vamper[1]::number[1]" : [ 1024 ],
+					"vamper[1]::numsteps" : [ 36.0 ],
+					"vamper[1]::onsetmask" : [ 33.0 ],
+					"vamper[1]::overdub" : [ 0.8 ],
+					"vamper[1]::periodic prompt[2]" : [ 3.0 ],
+					"vamper[1]::presetname" : [ 0 ],
+					"vamper[1]::rectoggle" : [ 0 ],
+					"vamper[1]::seed" : [ 0 ],
+					"vamper[1]::temperature" : [ 1.0 ],
+					"vamper[1]::textbutton[1]" : [ 0 ],
+					"vamper[1]::wetgain" : [ 0.0 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"four" : [ -26.094488188976371 ],
+					"gain-one" : [ -12.463162019240336 ],
+					"input-gain" : [ -0.036670878400201 ],
+					"led" : [ 0 ],
+					"livein" : [ -9.952755905511808 ],
+					"number" : [ 3 ],
+					"panfour" : [ 0.15748031496063 ],
+					"panone" : [ 0.291338582677165 ],
+					"panthree" : [ 0.700787401574803 ],
+					"pantwo" : [ 0.724409448818898 ],
+					"panzero" : [ 0.503937007874016 ],
+					"playlist~" : [ 						{
+							"data" : 							{
+								"clips" : [ 									{
+										"absolutepath" : "/Users/hugo/projects/alter-ego/alter ego/IIc.mp3",
+										"filename" : "IIc.mp3",
+										"filekind" : "audiofile",
+										"id" : "u874006334",
+										"loop" : 0,
+										"content_state" : 										{
+
+										}
+
+									}
+ ]
+							}
+
+						}
+ ],
+					"three" : [ -8.142174364919342 ],
+					"toggle" : [ 0 ],
+					"toggle[1]" : [ 0 ],
+					"two" : [ -3.496062992125985 ],
+					"unl1toggle" : [ 0 ],
+					"unl2" : [ 0 ],
+					"vamper::atypical" : [ 0 ],
+					"vamper::auto-generate" : [ 1 ],
+					"vamper::beatwidth" : [ 0.0 ],
+					"vamper::ckpt-name" : [ "spotdl" ],
+					"vamper::downbeatstoggle" : [ 0 ],
+					"vamper::dropout" : [ 0.0 ],
+					"vamper::drygain" : [ 0.0 ],
+					"vamper::feedback" : [ 0 ],
+					"vamper::hostname" : [ "http://localhost:7861/" ],
+					"vamper::hostname[1]" : [ "/Users/hugo/miniconda3/bin/python" ],
+					"vamper::mutebutton" : [ 0 ],
+					"vamper::number" : [ 2048 ],
+					"vamper::number[1]" : [ 1024 ],
+					"vamper::numsteps" : [ 36.0 ],
+					"vamper::onsetmask" : [ 21.0 ],
+					"vamper::overdub" : [ 0.8 ],
+					"vamper::periodic prompt[2]" : [ 3.0 ],
+					"vamper::presetname" : [ 1 ],
+					"vamper::rectoggle" : [ 0 ],
+					"vamper::seed" : [ 0 ],
+					"vamper::temperature" : [ 1.0 ],
+					"vamper::textbutton[1]" : [ 0 ],
+					"vamper::wetgain" : [ 0.0 ],
+					"vamper[1]::atypical" : [ 0 ],
+					"vamper[1]::auto-generate" : [ 1 ],
+					"vamper[1]::beatwidth" : [ 0.0 ],
+					"vamper[1]::ckpt-name" : [ "spotdl" ],
+					"vamper[1]::downbeatstoggle" : [ 0 ],
+					"vamper[1]::dropout" : [ 0.0 ],
+					"vamper[1]::drygain" : [ 0.0 ],
+					"vamper[1]::feedback" : [ 0 ],
+					"vamper[1]::hostname" : [ "http://localhost:7860/" ],
+					"vamper[1]::hostname[1]" : [ "/Users/hugo/miniconda3/bin/python" ],
+					"vamper[1]::mutebutton" : [ 0 ],
+					"vamper[1]::number" : [ 2048 ],
+					"vamper[1]::number[1]" : [ 1024 ],
+					"vamper[1]::numsteps" : [ 36.0 ],
+					"vamper[1]::onsetmask" : [ 21.0 ],
+					"vamper[1]::overdub" : [ 0.8 ],
+					"vamper[1]::periodic prompt[2]" : [ 3.0 ],
+					"vamper[1]::presetname" : [ 1 ],
+					"vamper[1]::rectoggle" : [ 0 ],
+					"vamper[1]::seed" : [ 0 ],
+					"vamper[1]::temperature" : [ 1.0 ],
+					"vamper[1]::textbutton[1]" : [ 0 ],
+					"vamper[1]::wetgain" : [ 0.0 ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"four" : [ -16.764318819084757 ],
+					"gain-one" : [ -70.0 ],
+					"input-gain" : [ -0.036670878400201 ],
+					"led" : [ 0 ],
+					"livein" : [ -9.952755905511808 ],
+					"number" : [ 3 ],
+					"panfour" : [ 0.15748031496063 ],
+					"panone" : [ 0.291338582677165 ],
+					"panthree" : [ 0.700787401574803 ],
+					"pantwo" : [ 0.724409448818898 ],
+					"panzero" : [ 0.503937007874016 ],
+					"playlist~" : [ 						{
+							"data" : 							{
+								"clips" : [ 									{
+										"absolutepath" : "/Users/hugo/projects/alter-ego/alter ego/IIc.mp3",
+										"filename" : "IIc.mp3",
+										"filekind" : "audiofile",
+										"id" : "u874006334",
+										"loop" : 0,
+										"content_state" : 										{
+
+										}
+
+									}
+ ]
+							}
+
+						}
+ ],
+					"three" : [ -70.0 ],
+					"toggle" : [ 0 ],
+					"toggle[1]" : [ 0 ],
+					"two" : [ -3.496062992125985 ],
+					"unl1toggle" : [ 0 ],
+					"unl2" : [ 0 ],
+					"vamper::atypical" : [ 0 ],
+					"vamper::auto-generate" : [ 1 ],
+					"vamper::beatwidth" : [ 0.0 ],
+					"vamper::ckpt-name" : [ "spotdl" ],
+					"vamper::downbeatstoggle" : [ 0 ],
+					"vamper::dropout" : [ 0.0 ],
+					"vamper::drygain" : [ 0.0 ],
+					"vamper::feedback" : [ 0 ],
+					"vamper::hostname" : [ "http://localhost:7861/" ],
+					"vamper::hostname[1]" : [ "/Users/hugo/miniconda3/bin/python" ],
+					"vamper::mutebutton" : [ 0 ],
+					"vamper::number" : [ 2048 ],
+					"vamper::number[1]" : [ 1024 ],
+					"vamper::numsteps" : [ 36.0 ],
+					"vamper::onsetmask" : [ 7.0 ],
+					"vamper::overdub" : [ 0.8 ],
+					"vamper::periodic prompt[2]" : [ 3.0 ],
+					"vamper::presetname" : [ 2 ],
+					"vamper::rectoggle" : [ 0 ],
+					"vamper::seed" : [ 0 ],
+					"vamper::temperature" : [ 1.0 ],
+					"vamper::textbutton[1]" : [ 0 ],
+					"vamper::wetgain" : [ 0.0 ],
+					"vamper[1]::atypical" : [ 0 ],
+					"vamper[1]::auto-generate" : [ 1 ],
+					"vamper[1]::beatwidth" : [ 0.0 ],
+					"vamper[1]::ckpt-name" : [ "spotdl" ],
+					"vamper[1]::downbeatstoggle" : [ 0 ],
+					"vamper[1]::dropout" : [ 0.0 ],
+					"vamper[1]::drygain" : [ 0.0 ],
+					"vamper[1]::feedback" : [ 0 ],
+					"vamper[1]::hostname" : [ "http://localhost:7860/" ],
+					"vamper[1]::hostname[1]" : [ "/Users/hugo/miniconda3/bin/python" ],
+					"vamper[1]::mutebutton" : [ 0 ],
+					"vamper[1]::number" : [ 2048 ],
+					"vamper[1]::number[1]" : [ 1024 ],
+					"vamper[1]::numsteps" : [ 36.0 ],
+					"vamper[1]::onsetmask" : [ 21.0 ],
+					"vamper[1]::overdub" : [ 0.8 ],
+					"vamper[1]::periodic prompt[2]" : [ 3.0 ],
+					"vamper[1]::presetname" : [ 1 ],
+					"vamper[1]::rectoggle" : [ 0 ],
+					"vamper[1]::seed" : [ 0 ],
+					"vamper[1]::temperature" : [ 1.0 ],
+					"vamper[1]::textbutton[1]" : [ 0 ],
+					"vamper[1]::wetgain" : [ 0.0 ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"four" : [ -4.278074044126129 ],
+					"gain-one" : [ -70.0 ],
+					"input-gain" : [ -0.036670878400201 ],
+					"led" : [ 0 ],
+					"livein" : [ -9.952755905511808 ],
+					"number" : [ 3 ],
+					"panfour" : [ 0.15748031496063 ],
+					"panone" : [ 0.291338582677165 ],
+					"panthree" : [ 0.700787401574803 ],
+					"pantwo" : [ 0.724409448818898 ],
+					"panzero" : [ 0.503937007874016 ],
+					"playlist~" : [ 						{
+							"data" : 							{
+								"clips" : [ 									{
+										"absolutepath" : "/Users/hugo/projects/alter-ego/alter ego/IIc.mp3",
+										"filename" : "IIc.mp3",
+										"filekind" : "audiofile",
+										"id" : "u874006334",
+										"loop" : 0,
+										"content_state" : 										{
+
+										}
+
+									}
+ ]
+							}
+
+						}
+ ],
+					"three" : [ -70.0 ],
+					"toggle" : [ 0 ],
+					"toggle[1]" : [ 0 ],
+					"two" : [ -3.496062992125985 ],
+					"unl1toggle" : [ 0 ],
+					"unl2" : [ 0 ],
+					"vamper::atypical" : [ 0 ],
+					"vamper::auto-generate" : [ 1 ],
+					"vamper::beatwidth" : [ 0.0 ],
+					"vamper::ckpt-name" : [ "spotdl" ],
+					"vamper::downbeatstoggle" : [ 0 ],
+					"vamper::dropout" : [ 0.0 ],
+					"vamper::drygain" : [ 0.0 ],
+					"vamper::feedback" : [ 0 ],
+					"vamper::hostname" : [ "http://localhost:7862/" ],
+					"vamper::hostname[1]" : [ "/Users/hugo/miniconda3/bin/python" ],
+					"vamper::mutebutton" : [ 0 ],
+					"vamper::number" : [ 2048 ],
+					"vamper::number[1]" : [ 1024 ],
+					"vamper::numsteps" : [ 36.0 ],
+					"vamper::onsetmask" : [ 7.0 ],
+					"vamper::overdub" : [ 0.8 ],
+					"vamper::periodic prompt[2]" : [ 3.0 ],
+					"vamper::presetname" : [ 2 ],
+					"vamper::rectoggle" : [ 0 ],
+					"vamper::seed" : [ 0 ],
+					"vamper::temperature" : [ 1.0 ],
+					"vamper::textbutton[1]" : [ 0 ],
+					"vamper::wetgain" : [ 0.0 ],
+					"vamper[1]::atypical" : [ 0 ],
+					"vamper[1]::auto-generate" : [ 1 ],
+					"vamper[1]::beatwidth" : [ 0.0 ],
+					"vamper[1]::ckpt-name" : [ "spotdl" ],
+					"vamper[1]::downbeatstoggle" : [ 0 ],
+					"vamper[1]::dropout" : [ 0.0 ],
+					"vamper[1]::drygain" : [ 0.0 ],
+					"vamper[1]::feedback" : [ 0 ],
+					"vamper[1]::hostname" : [ "http://localhost:7860/" ],
+					"vamper[1]::hostname[1]" : [ "/Users/hugo/miniconda3/bin/python" ],
+					"vamper[1]::mutebutton" : [ 0 ],
+					"vamper[1]::number" : [ 2048 ],
+					"vamper[1]::number[1]" : [ 1024 ],
+					"vamper[1]::numsteps" : [ 36.0 ],
+					"vamper[1]::onsetmask" : [ 21.0 ],
+					"vamper[1]::overdub" : [ 0.8 ],
+					"vamper[1]::periodic prompt[2]" : [ 3.0 ],
+					"vamper[1]::presetname" : [ 1 ],
+					"vamper[1]::rectoggle" : [ 0 ],
+					"vamper[1]::seed" : [ 0 ],
+					"vamper[1]::temperature" : [ 1.0 ],
+					"vamper[1]::textbutton[1]" : [ 0 ],
+					"vamper[1]::wetgain" : [ 0.0 ]
+				}
+
+			}
+,
+			"7" : 			{
+				"id" : 7,
+				"data" : 				{
+					"four" : [ -4.278074044126129 ],
+					"gain-one" : [ -70.0 ],
+					"input-gain" : [ -0.036670878400201 ],
+					"led" : [ 0 ],
+					"livein" : [ -9.952755905511808 ],
+					"number" : [ 3 ],
+					"panfour" : [ 0.15748031496063 ],
+					"panone" : [ 0.291338582677165 ],
+					"panthree" : [ 0.700787401574803 ],
+					"pantwo" : [ 0.724409448818898 ],
+					"panzero" : [ 0.503937007874016 ],
+					"playlist~" : [ 						{
+							"data" : 							{
+								"clips" : [ 									{
+										"absolutepath" : "/Users/hugo/projects/alter-ego/alter ego/IIc.mp3",
+										"filename" : "IIc.mp3",
+										"filekind" : "audiofile",
+										"id" : "u874006334",
+										"loop" : 0,
+										"content_state" : 										{
+
+										}
+
+									}
+ ]
+							}
+
+						}
+ ],
+					"three" : [ -70.0 ],
+					"toggle" : [ 0 ],
+					"toggle[1]" : [ 0 ],
+					"two" : [ -3.496062992125985 ],
+					"unl1toggle" : [ 0 ],
+					"unl2" : [ 0 ],
+					"vamper::atypical" : [ 0 ],
+					"vamper::auto-generate" : [ 1 ],
+					"vamper::beatwidth" : [ 0.0 ],
+					"vamper::ckpt-name" : [ "spotdl" ],
+					"vamper::downbeatstoggle" : [ 0 ],
+					"vamper::dropout" : [ 0.0 ],
+					"vamper::drygain" : [ 0.0 ],
+					"vamper::feedback" : [ 0 ],
+					"vamper::hostname" : [ "http://localhost:7862/" ],
+					"vamper::hostname[1]" : [ "/Users/hugo/miniconda3/bin/python" ],
+					"vamper::mutebutton" : [ 0 ],
+					"vamper::number" : [ 2048 ],
+					"vamper::number[1]" : [ 1024 ],
+					"vamper::numsteps" : [ 36.0 ],
+					"vamper::onsetmask" : [ 7.0 ],
+					"vamper::overdub" : [ 0.8 ],
+					"vamper::periodic prompt[2]" : [ 3.0 ],
+					"vamper::presetname" : [ 2 ],
+					"vamper::rectoggle" : [ 0 ],
+					"vamper::seed" : [ 0 ],
+					"vamper::temperature" : [ 1.0 ],
+					"vamper::textbutton[1]" : [ 0 ],
+					"vamper::wetgain" : [ 0.0 ],
+					"vamper[1]::atypical" : [ 0 ],
+					"vamper[1]::auto-generate" : [ 1 ],
+					"vamper[1]::beatwidth" : [ 0.0 ],
+					"vamper[1]::ckpt-name" : [ "spotdl" ],
+					"vamper[1]::downbeatstoggle" : [ 0 ],
+					"vamper[1]::dropout" : [ 0.0 ],
+					"vamper[1]::drygain" : [ 0.0 ],
+					"vamper[1]::feedback" : [ 1 ],
+					"vamper[1]::hostname" : [ "http://localhost:7860/" ],
+					"vamper[1]::hostname[1]" : [ "/Users/hugo/miniconda3/bin/python" ],
+					"vamper[1]::mutebutton" : [ 0 ],
+					"vamper[1]::number" : [ 2048 ],
+					"vamper[1]::number[1]" : [ 1024 ],
+					"vamper[1]::numsteps" : [ 36.0 ],
+					"vamper[1]::onsetmask" : [ 7.0 ],
+					"vamper[1]::overdub" : [ 0.8 ],
+					"vamper[1]::periodic prompt[2]" : [ 3.0 ],
+					"vamper[1]::presetname" : [ 2 ],
+					"vamper[1]::rectoggle" : [ 0 ],
+					"vamper[1]::seed" : [ 0 ],
+					"vamper[1]::temperature" : [ 1.0 ],
+					"vamper[1]::textbutton[1]" : [ 0 ],
+					"vamper[1]::wetgain" : [ 0.0 ]
+				}
+
+			}
+,
+			"8" : 			{
+				"id" : 8,
+				"data" : 				{
+					"four" : [ -4.278074044126129 ],
+					"gain-one" : [ -70.0 ],
+					"input-gain" : [ -0.036670878400201 ],
+					"led" : [ 0 ],
+					"livein" : [ -9.952755905511808 ],
+					"number" : [ 3 ],
+					"panfour" : [ 0.15748031496063 ],
+					"panone" : [ 0.291338582677165 ],
+					"panthree" : [ 0.700787401574803 ],
+					"pantwo" : [ 0.724409448818898 ],
+					"panzero" : [ 0.503937007874016 ],
+					"playlist~" : [ 						{
+							"data" : 							{
+								"clips" : [ 									{
+										"absolutepath" : "/Users/hugo/projects/alter-ego/alter ego/IIc.mp3",
+										"filename" : "IIc.mp3",
+										"filekind" : "audiofile",
+										"id" : "u874006334",
+										"loop" : 0,
+										"content_state" : 										{
+
+										}
+
+									}
+ ]
+							}
+
+						}
+ ],
+					"three" : [ -70.0 ],
+					"toggle" : [ 0 ],
+					"toggle[1]" : [ 0 ],
+					"two" : [ -3.496062992125985 ],
+					"unl1toggle" : [ 0 ],
+					"unl2" : [ 0 ],
+					"vamper::atypical" : [ 0 ],
+					"vamper::auto-generate" : [ 1 ],
+					"vamper::beatwidth" : [ 0.0 ],
+					"vamper::ckpt-name" : [ "spotdl" ],
+					"vamper::downbeatstoggle" : [ 0 ],
+					"vamper::dropout" : [ 0.0 ],
+					"vamper::drygain" : [ 0.0 ],
+					"vamper::feedback" : [ 0 ],
+					"vamper::hostname" : [ "http://localhost:7862/" ],
+					"vamper::hostname[1]" : [ "/Users/hugo/miniconda3/bin/python" ],
+					"vamper::mutebutton" : [ 0 ],
+					"vamper::number" : [ 2048 ],
+					"vamper::number[1]" : [ 1024 ],
+					"vamper::numsteps" : [ 36.0 ],
+					"vamper::onsetmask" : [ 7.0 ],
+					"vamper::overdub" : [ 0.8 ],
+					"vamper::periodic prompt[2]" : [ 3.0 ],
+					"vamper::presetname" : [ 2 ],
+					"vamper::rectoggle" : [ 1 ],
+					"vamper::seed" : [ 0 ],
+					"vamper::temperature" : [ 1.0 ],
+					"vamper::textbutton[1]" : [ 1 ],
+					"vamper::wetgain" : [ 0.0 ],
+					"vamper[1]::atypical" : [ 0 ],
+					"vamper[1]::auto-generate" : [ 1 ],
+					"vamper[1]::beatwidth" : [ 0.0 ],
+					"vamper[1]::ckpt-name" : [ "spotdl" ],
+					"vamper[1]::downbeatstoggle" : [ 0 ],
+					"vamper[1]::dropout" : [ 0.0 ],
+					"vamper[1]::drygain" : [ 0.0 ],
+					"vamper[1]::feedback" : [ 1 ],
+					"vamper[1]::hostname" : [ "http://localhost:7860/" ],
+					"vamper[1]::hostname[1]" : [ "/Users/hugo/miniconda3/bin/python" ],
+					"vamper[1]::mutebutton" : [ 0 ],
+					"vamper[1]::number" : [ 2048 ],
+					"vamper[1]::number[1]" : [ 1024 ],
+					"vamper[1]::numsteps" : [ 36.0 ],
+					"vamper[1]::onsetmask" : [ 7.0 ],
+					"vamper[1]::overdub" : [ 0.8 ],
+					"vamper[1]::periodic prompt[2]" : [ 3.0 ],
+					"vamper[1]::presetname" : [ 2 ],
+					"vamper[1]::rectoggle" : [ 1 ],
+					"vamper[1]::seed" : [ 0 ],
+					"vamper[1]::temperature" : [ 1.0 ],
+					"vamper[1]::textbutton[1]" : [ 1 ],
+					"vamper[1]::wetgain" : [ 0.0 ]
+				}
+
+			}
+,
+			"9" : 			{
+				"id" : 9,
+				"data" : 				{
+					"four" : [ -4.278074044126129 ],
+					"gain-one" : [ -70.0 ],
+					"input-gain" : [ -0.036670878400201 ],
+					"led" : [ 0 ],
+					"livein" : [ -9.952755905511808 ],
+					"number" : [ 3 ],
+					"panfour" : [ 0.15748031496063 ],
+					"panone" : [ 0.291338582677165 ],
+					"panthree" : [ 0.700787401574803 ],
+					"pantwo" : [ 0.724409448818898 ],
+					"panzero" : [ 0.503937007874016 ],
+					"playlist~" : [ 						{
+							"data" : 							{
+								"clips" : [ 									{
+										"absolutepath" : "/Users/hugo/projects/alter-ego/alter ego/IIc.mp3",
+										"filename" : "IIc.mp3",
+										"filekind" : "audiofile",
+										"id" : "u874006334",
+										"loop" : 0,
+										"content_state" : 										{
+
+										}
+
+									}
+ ]
+							}
+
+						}
+ ],
+					"three" : [ -70.0 ],
+					"toggle" : [ 0 ],
+					"toggle[1]" : [ 0 ],
+					"two" : [ -3.496062992125985 ],
+					"unl1toggle" : [ 0 ],
+					"unl2" : [ 0 ],
+					"vamper::atypical" : [ 0 ],
+					"vamper::auto-generate" : [ 1 ],
+					"vamper::beatwidth" : [ 0.0 ],
+					"vamper::ckpt-name" : [ "spotdl" ],
+					"vamper::downbeatstoggle" : [ 0 ],
+					"vamper::dropout" : [ 0.0 ],
+					"vamper::drygain" : [ 0.0 ],
+					"vamper::feedback" : [ 0 ],
+					"vamper::hostname" : [ "http://localhost:7861/" ],
+					"vamper::hostname[1]" : [ "/Users/hugo/miniconda3/bin/python" ],
+					"vamper::mutebutton" : [ 0 ],
+					"vamper::number" : [ 2048 ],
+					"vamper::number[1]" : [ 1024 ],
+					"vamper::numsteps" : [ 36.0 ],
+					"vamper::onsetmask" : [ 7.0 ],
+					"vamper::overdub" : [ 0.8 ],
+					"vamper::periodic prompt[2]" : [ 3.0 ],
+					"vamper::presetname" : [ 2 ],
+					"vamper::rectoggle" : [ 0 ],
+					"vamper::seed" : [ 0 ],
+					"vamper::temperature" : [ 1.0 ],
+					"vamper::textbutton[1]" : [ 0 ],
+					"vamper::wetgain" : [ 0.0 ],
+					"vamper[1]::atypical" : [ 0 ],
+					"vamper[1]::auto-generate" : [ 1 ],
+					"vamper[1]::beatwidth" : [ 0.0 ],
+					"vamper[1]::ckpt-name" : [ "spotdl" ],
+					"vamper[1]::downbeatstoggle" : [ 0 ],
+					"vamper[1]::dropout" : [ 0.0 ],
+					"vamper[1]::drygain" : [ 0.0 ],
+					"vamper[1]::feedback" : [ 1 ],
+					"vamper[1]::hostname" : [ "http://localhost:7860/" ],
+					"vamper[1]::hostname[1]" : [ "/Users/hugo/miniconda3/bin/python" ],
+					"vamper[1]::mutebutton" : [ 0 ],
+					"vamper[1]::number" : [ 2048 ],
+					"vamper[1]::number[1]" : [ 1024 ],
+					"vamper[1]::numsteps" : [ 36.0 ],
+					"vamper[1]::onsetmask" : [ 7.0 ],
+					"vamper[1]::overdub" : [ 0.8 ],
+					"vamper[1]::periodic prompt[2]" : [ 3.0 ],
+					"vamper[1]::presetname" : [ 2 ],
+					"vamper[1]::rectoggle" : [ 0 ],
+					"vamper[1]::seed" : [ 0 ],
+					"vamper[1]::temperature" : [ 1.0 ],
+					"vamper[1]::textbutton[1]" : [ 0 ],
+					"vamper[1]::wetgain" : [ 0.0 ]
+				}
+
+			}
+,
+			"21" : 			{
+				"id" : 21,
+				"data" : 				{
+					"four" : [ -4.278074044126129 ],
+					"gain-one" : [ -17.946198861857241 ],
+					"input-gain" : [ -0.036670878400201 ],
+					"led" : [ 0 ],
+					"livein" : [ -9.952755905511808 ],
+					"number" : [ 3 ],
+					"panfour" : [ 0.15748031496063 ],
+					"panone" : [ 0.291338582677165 ],
+					"panthree" : [ 0.700787401574803 ],
+					"pantwo" : [ 0.724409448818898 ],
+					"panzero" : [ 0.503937007874016 ],
+					"playlist~" : [ 						{
+							"data" : 							{
+								"clips" : [ 									{
+										"absolutepath" : "/Users/hugo/projects/alter-ego/alter ego/IIc.mp3",
+										"filename" : "IIc.mp3",
+										"filekind" : "audiofile",
+										"id" : "u874006334",
+										"loop" : 0,
+										"content_state" : 										{
+
+										}
+
+									}
+ ]
+							}
+
+						}
+ ],
+					"three" : [ -70.0 ],
+					"toggle" : [ 0 ],
+					"toggle[1]" : [ 0 ],
+					"two" : [ -3.496062992125985 ],
+					"unl1toggle" : [ 0 ],
+					"unl2" : [ 0 ],
+					"vamper::atypical" : [ 0 ],
+					"vamper::auto-generate" : [ 1 ],
+					"vamper::beatwidth" : [ 0.0 ],
+					"vamper::ckpt-name" : [ "spotdl" ],
+					"vamper::downbeatstoggle" : [ 0 ],
+					"vamper::dropout" : [ 0.0 ],
+					"vamper::drygain" : [ 0.0 ],
+					"vamper::feedback" : [ 0 ],
+					"vamper::hostname" : [ "http://localhost:7861/" ],
+					"vamper::hostname[1]" : [ "/Users/hugo/miniconda3/bin/python" ],
+					"vamper::mutebutton" : [ 1 ],
+					"vamper::number" : [ 2048 ],
+					"vamper::number[1]" : [ 1024 ],
+					"vamper::numsteps" : [ 36.0 ],
+					"vamper::onsetmask" : [ 7.0 ],
+					"vamper::overdub" : [ 0.8 ],
+					"vamper::periodic prompt[2]" : [ 3.0 ],
+					"vamper::presetname" : [ 2 ],
+					"vamper::rectoggle" : [ 0 ],
+					"vamper::seed" : [ 0 ],
+					"vamper::temperature" : [ 1.0 ],
+					"vamper::textbutton[1]" : [ 0 ],
+					"vamper::wetgain" : [ 0.0 ],
+					"vamper[1]::atypical" : [ 0 ],
+					"vamper[1]::auto-generate" : [ 1 ],
+					"vamper[1]::beatwidth" : [ 0.0 ],
+					"vamper[1]::ckpt-name" : [ "spotdl" ],
+					"vamper[1]::downbeatstoggle" : [ 0 ],
+					"vamper[1]::dropout" : [ 0.0 ],
+					"vamper[1]::drygain" : [ 0.0 ],
+					"vamper[1]::feedback" : [ 1 ],
+					"vamper[1]::hostname" : [ "http://localhost:7860/" ],
+					"vamper[1]::hostname[1]" : [ "/Users/hugo/miniconda3/bin/python" ],
+					"vamper[1]::mutebutton" : [ 1 ],
+					"vamper[1]::number" : [ 2048 ],
+					"vamper[1]::number[1]" : [ 1024 ],
+					"vamper[1]::numsteps" : [ 36.0 ],
+					"vamper[1]::onsetmask" : [ 7.0 ],
+					"vamper[1]::overdub" : [ 0.8 ],
+					"vamper[1]::periodic prompt[2]" : [ 3.0 ],
+					"vamper[1]::presetname" : [ 2 ],
+					"vamper[1]::rectoggle" : [ 0 ],
+					"vamper[1]::seed" : [ 0 ],
+					"vamper[1]::temperature" : [ 1.0 ],
+					"vamper[1]::textbutton[1]" : [ 0 ],
+					"vamper[1]::wetgain" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

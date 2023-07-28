@@ -235,7 +235,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 260.11743837594986, 2235.374128341674805, 50.0, 25.0 ],
-					"text" : "1"
+					"text" : "0"
 				}
 
 			}
@@ -452,16 +452,16 @@
 						"dropout" : [ 0.0 ],
 						"drygain" : [ 0.0 ],
 						"feedback" : [ 0 ],
-						"hostname" : [ "http://localhost:7860" ],
+						"hostname" : [ "http://localhost:7863" ],
 						"hostname[1]" : [ "/Users/hugo/miniconda3/bin/python" ],
-						"mutebutton" : [ 0 ],
+						"mutebutton" : [ 1 ],
 						"number" : [ 2048 ],
 						"number[1]" : [ 1024 ],
-						"numsteps" : [ 24.0 ],
-						"onsetmask" : [ 33.0 ],
+						"numsteps" : [ 36.0 ],
+						"onsetmask" : [ 21.0 ],
 						"overdub" : [ 0.8 ],
 						"periodic prompt[2]" : [ 3.0 ],
-						"presetname" : [ 0 ],
+						"presetname" : [ 1 ],
 						"rectoggle" : [ 0 ],
 						"seed" : [ 0 ],
 						"temperature" : [ 1.0 ],
@@ -515,7 +515,7 @@
 							"parameter_initial" : [ 0.85 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "overdub",
+							"parameter_longname" : "overdub[1]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "overdub",
 							"parameter_type" : 0,
@@ -638,7 +638,7 @@
 			}
 , 			{
 				"box" : 				{
-					"buffername" : "1000-dry",
+					"buffername" : "1001-dry",
 					"id" : "obj-223",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -1733,7 +1733,7 @@
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "drygain",
+							"parameter_longname" : "live.gain~[13]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "live.gain~",
@@ -2316,7 +2316,7 @@
 							"parameter_initial" : [ 256 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[1]",
+							"parameter_longname" : "number",
 							"parameter_shortname" : "number",
 							"parameter_type" : 3
 						}
@@ -2679,7 +2679,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.gain~[7]",
+							"parameter_longname" : "live.gain~[6]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "live.gain~",
@@ -3583,7 +3583,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1725.403408636680524, 2235.0, 420.0, 25.0 ],
-					"text" : "/Users/hugo/projects/wanderer/audio/vampnet-output-1000.wav"
+					"text" : "/Users/hugo/projects/wanderer/audio/vampnet-output-1001.wav"
 				}
 
 			}
@@ -3702,7 +3702,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 999.402436137199402, 1315.527656922363349, 1439.0, 41.0 ],
-					"text" : "/Users/hugo/miniconda3/bin/python /Users/hugo/projects/wanderer/unloop/unloop.py \"--audio_path /Users/hugo/projects/wanderer/audio/vampnet-input-1000.wav\" \"--output_path /Users/hugo/projects/wanderer/audio/vampnet-output-1000.wav\" \"--servername http://localhost:7860\" \"--temp 1.0000\" \"--periodic_hint_freq 3\" \"--onset_mask_width 33\" \"--beat_mask_ms 0\" \"--downbeats_only 0\" \"--typical_filter 0\" \"--num_steps 24\" \"--checkpoint_name spotdl\" \"--dropout 0.0000\" \"--seed 0\""
+					"text" : "/Users/hugo/miniconda3/bin/python /Users/hugo/projects/wanderer/unloop/unloop.py \"--audio_path /Users/hugo/projects/wanderer/audio/vampnet-input-1001.wav\" \"--output_path /Users/hugo/projects/wanderer/audio/vampnet-output-1001.wav\" \"--servername http://localhost:7863\" \"--temp 1.0000\" \"--periodic_hint_freq 3\" \"--onset_mask_width 21\" \"--beat_mask_ms 0\" \"--downbeats_only 0\" \"--typical_filter 0\" \"--num_steps 36\" \"--checkpoint_name spotdl\" \"--dropout 0.0000\" \"--seed 0\""
 				}
 
 			}
@@ -4607,7 +4607,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1724.403408636680524, 2021.789633750915527, 644.0, 25.0 ],
-					"text" : "/Users/hugo/projects/wanderer/audio/vampnet-output-1000.wav"
+					"text" : "STATUS Status.PROCESSING"
 				}
 
 			}
@@ -4791,7 +4791,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1753.947652086662174, 710.175425591980002, 381.273833999999852, 25.0 ],
-					"text" : "/Users/hugo/projects/wanderer/audio/vampnet-input-1000.wav"
+					"text" : "/Users/hugo/projects/wanderer/audio/vampnet-input-1001.wav"
 				}
 
 			}
@@ -4959,7 +4959,7 @@
 							"parameter_initial" : [ 256 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[3]",
+							"parameter_longname" : "number[4]",
 							"parameter_shortname" : "number",
 							"parameter_type" : 3
 						}
@@ -5205,7 +5205,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2187.014237012869216, -639.768801619479973, 134.0, 25.0 ],
-					"text" : "setsize 9000"
+					"text" : "setsize 8104"
 				}
 
 			}
@@ -6027,7 +6027,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "dropout",
+							"parameter_longname" : "dropout[1]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "dropout",
 							"parameter_type" : 0,
@@ -6062,7 +6062,7 @@
 							"parameter_initial" : [ 5 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "periodic prompt[3]",
+							"parameter_longname" : "periodic prompt[2]",
 							"parameter_mmax" : 31.0,
 							"parameter_shortname" : "periodic",
 							"parameter_steps" : 600,
@@ -6124,7 +6124,7 @@
 					"patching_rect" : [ 1150.0, 1788.0, 106.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 317.06651594633729, 325.723026333541839, 122.0, 18.0 ],
-					"text" : "STATUS.ready"
+					"text" : "Status.PROCESSING"
 				}
 
 			}
@@ -6219,7 +6219,7 @@
 					"patching_rect" : [ 1930.5, 1024.5, 159.0, 30.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 373.366514170118876, 354.811432538719146, 161.0, 21.86747927833926 ],
-					"text" : "http://localhost:7860",
+					"text" : "http://localhost:7863",
 					"varname" : "hostname"
 				}
 
@@ -6246,7 +6246,7 @@
 							"parameter_initial" : [ 5 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "onsetmask[1]",
+							"parameter_longname" : "onsetmask",
 							"parameter_mmax" : 100.0,
 							"parameter_shortname" : "onset mask",
 							"parameter_type" : 1,
@@ -6275,7 +6275,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-43",
-					"ignoreclick" : 1,
 					"maxclass" : "toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -6309,7 +6308,7 @@
 							"parameter_initial" : [ 24 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "numsteps[1]",
+							"parameter_longname" : "numsteps",
 							"parameter_mmax" : 64.0,
 							"parameter_mmin" : 12.0,
 							"parameter_shortname" : "steps",
@@ -6345,7 +6344,7 @@
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "beatwidth[1]",
+							"parameter_longname" : "beatwidth",
 							"parameter_mmax" : 250.0,
 							"parameter_shortname" : "beat (ms)",
 							"parameter_type" : 1,
@@ -6380,8 +6379,8 @@
 							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "temperature[1]",
-							"parameter_mmax" : 3.0,
+							"parameter_longname" : "temperature",
+							"parameter_mmax" : 100.0,
 							"parameter_shortname" : "temperature",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1

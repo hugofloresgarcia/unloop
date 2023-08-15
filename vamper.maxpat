@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -148.0, -1113.0, 1424.0, 1079.0 ],
+		"rect" : [ -148.0, -1138.0, 1852.0, 1104.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-257",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2261.0, -503.0, 150.0, 39.0 ],
+					"text" : "TODO: what do ab this setsize? "
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-299",
 					"maxclass" : "message",
@@ -235,7 +247,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 260.11743837594986, 2235.374128341674805, 50.0, 25.0 ],
-					"text" : "0"
+					"text" : "1"
 				}
 
 			}
@@ -446,27 +458,27 @@
 					"restore" : 					{
 						"atypical" : [ 0 ],
 						"auto-generate" : [ 0 ],
-						"beatwidth" : [ 0.0 ],
+						"beatwidth" : [ 124.0 ],
 						"ckpt-name" : [ "spotdl" ],
 						"downbeatstoggle" : [ 0 ],
 						"dropout" : [ 0.0 ],
-						"drygain" : [ 0.0 ],
+						"drygain" : [ -37.405416638017527 ],
 						"feedback" : [ 0 ],
-						"hostname" : [ "http://localhost:7863" ],
+						"hostname" : [ "http://localhost:7860/" ],
 						"hostname[1]" : [ "/Users/hugo/miniconda3/bin/python" ],
-						"mutebutton" : [ 1 ],
+						"mutebutton" : [ 0 ],
 						"number" : [ 2048 ],
 						"number[1]" : [ 1024 ],
 						"numsteps" : [ 36.0 ],
-						"onsetmask" : [ 21.0 ],
+						"onsetmask" : [ 0.0 ],
 						"overdub" : [ 0.8 ],
-						"periodic prompt[2]" : [ 3.0 ],
-						"presetname" : [ 1 ],
+						"periodic prompt[2]" : [ 0.0 ],
+						"presetname" : [ 0 ],
 						"rectoggle" : [ 0 ],
 						"seed" : [ 0 ],
 						"temperature" : [ 1.0 ],
 						"textbutton[1]" : [ 0 ],
-						"wetgain" : [ 0.0 ]
+						"wetgain" : [ 6.0 ]
 					}
 ,
 					"text" : "autopattr",
@@ -515,7 +527,7 @@
 							"parameter_initial" : [ 0.85 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "overdub[1]",
+							"parameter_longname" : "overdub",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "overdub",
 							"parameter_type" : 0,
@@ -638,7 +650,7 @@
 			}
 , 			{
 				"box" : 				{
-					"buffername" : "1001-dry",
+					"buffername" : "1037-dry",
 					"id" : "obj-223",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -1733,7 +1745,7 @@
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "live.gain~[13]",
+							"parameter_longname" : "drygain",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "live.gain~",
@@ -2316,7 +2328,7 @@
 							"parameter_initial" : [ 256 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number",
+							"parameter_longname" : "number[1]",
 							"parameter_shortname" : "number",
 							"parameter_type" : 3
 						}
@@ -2679,7 +2691,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.gain~[6]",
+							"parameter_longname" : "live.gain~[7]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "live.gain~",
@@ -3488,7 +3500,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2634.173195986275459, 181.024893923479112, 314.0, 25.0 ],
-					"text" : "/Users/hugo/projects/wanderer"
+					"text" : "/Users/hugo/projects/unloop"
 				}
 
 			}
@@ -3583,7 +3595,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1725.403408636680524, 2235.0, 420.0, 25.0 ],
-					"text" : "/Users/hugo/projects/wanderer/audio/vampnet-output-1001.wav"
+					"text" : "/Users/hugo/projects/unloop/audio/vampnet-output-1037.wav"
 				}
 
 			}
@@ -3702,7 +3714,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 999.402436137199402, 1315.527656922363349, 1439.0, 41.0 ],
-					"text" : "/Users/hugo/miniconda3/bin/python /Users/hugo/projects/wanderer/unloop/unloop.py \"--audio_path /Users/hugo/projects/wanderer/audio/vampnet-input-1001.wav\" \"--output_path /Users/hugo/projects/wanderer/audio/vampnet-output-1001.wav\" \"--servername http://localhost:7863\" \"--temp 1.0000\" \"--periodic_hint_freq 3\" \"--onset_mask_width 21\" \"--beat_mask_ms 0\" \"--downbeats_only 0\" \"--typical_filter 0\" \"--num_steps 36\" \"--checkpoint_name spotdl\" \"--dropout 0.0000\" \"--seed 0\""
+					"text" : "/Users/hugo/miniconda3/bin/python /Users/hugo/projects/unloop/unloop/unloop.py \"--audio_path /Users/hugo/projects/unloop/audio/vampnet-input-1037.wav\" \"--output_path /Users/hugo/projects/unloop/audio/vampnet-output-1037.wav\" \"--servername http://localhost:7860/\" \"--temp 1.0000\" \"--periodic_hint_freq 0\" \"--onset_mask_width 0\" \"--beat_mask_ms 124\" \"--downbeats_only 0\" \"--typical_filter 0\" \"--num_steps 36\" \"--checkpoint_name spotdl\" \"--dropout 0.0000\" \"--seed 0\""
 				}
 
 			}
@@ -4607,7 +4619,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1724.403408636680524, 2021.789633750915527, 644.0, 25.0 ],
-					"text" : "STATUS Status.PROCESSING"
+					"text" : "/Users/hugo/projects/unloop/audio/vampnet-output-1037.wav"
 				}
 
 			}
@@ -4791,7 +4803,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1753.947652086662174, 710.175425591980002, 381.273833999999852, 25.0 ],
-					"text" : "/Users/hugo/projects/wanderer/audio/vampnet-input-1001.wav"
+					"text" : "/Users/hugo/projects/unloop/audio/vampnet-input-1037.wav"
 				}
 
 			}
@@ -4959,7 +4971,7 @@
 							"parameter_initial" : [ 256 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[4]",
+							"parameter_longname" : "number[3]",
 							"parameter_shortname" : "number",
 							"parameter_type" : 3
 						}
@@ -5204,8 +5216,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2187.014237012869216, -639.768801619479973, 134.0, 25.0 ],
-					"text" : "setsize 8104"
+					"patching_rect" : [ 2180.014237012869216, -638.768801619479973, 134.0, 25.0 ],
+					"text" : "setsize 2822"
 				}
 
 			}
@@ -5216,7 +5228,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 1989.968252789316921, -598.00836925105682, 127.0, 25.0 ],
+					"patching_rect" : [ 1990.968252789316921, -581.00836925105682, 127.0, 25.0 ],
 					"text" : "buffer~ #0-dry 9000"
 				}
 
@@ -6027,7 +6039,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "dropout[1]",
+							"parameter_longname" : "dropout",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "dropout",
 							"parameter_type" : 0,
@@ -6062,7 +6074,7 @@
 							"parameter_initial" : [ 5 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "periodic prompt[2]",
+							"parameter_longname" : "periodic prompt[3]",
 							"parameter_mmax" : 31.0,
 							"parameter_shortname" : "periodic",
 							"parameter_steps" : 600,
@@ -6124,7 +6136,7 @@
 					"patching_rect" : [ 1150.0, 1788.0, 106.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 317.06651594633729, 325.723026333541839, 122.0, 18.0 ],
-					"text" : "Status.PROCESSING"
+					"text" : "STATUS.DONE"
 				}
 
 			}
@@ -6219,7 +6231,7 @@
 					"patching_rect" : [ 1930.5, 1024.5, 159.0, 30.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 373.366514170118876, 354.811432538719146, 161.0, 21.86747927833926 ],
-					"text" : "http://localhost:7863",
+					"text" : "http://localhost:7860/",
 					"varname" : "hostname"
 				}
 
@@ -6246,7 +6258,7 @@
 							"parameter_initial" : [ 5 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "onsetmask",
+							"parameter_longname" : "onsetmask[1]",
 							"parameter_mmax" : 100.0,
 							"parameter_shortname" : "onset mask",
 							"parameter_type" : 1,
@@ -6308,7 +6320,7 @@
 							"parameter_initial" : [ 24 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "numsteps",
+							"parameter_longname" : "numsteps[1]",
 							"parameter_mmax" : 64.0,
 							"parameter_mmin" : 12.0,
 							"parameter_shortname" : "steps",
@@ -6344,7 +6356,7 @@
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "beatwidth",
+							"parameter_longname" : "beatwidth[1]",
 							"parameter_mmax" : 250.0,
 							"parameter_shortname" : "beat (ms)",
 							"parameter_type" : 1,
@@ -6379,8 +6391,8 @@
 							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "temperature",
-							"parameter_mmax" : 100.0,
+							"parameter_longname" : "temperature[1]",
+							"parameter_mmax" : 3.0,
 							"parameter_shortname" : "temperature",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -7837,14 +7849,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-319", 0 ],
-					"midpoints" : [ 2196.514237012869216, -609.0, 1999.468252789316921, -609.0 ],
-					"source" : [ "obj-259", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-24", 10 ],
 					"midpoints" : [ 3059.587116757965759, 1194.0, 3073.146736308182426, 1194.0 ],
 					"source" : [ "obj-26", 0 ]
@@ -8004,7 +8008,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-259", 0 ],
-					"midpoints" : [ 2189.514237012869216, -642.0, 2196.514237012869216, -642.0 ],
+					"midpoints" : [ 2189.514237012869216, -642.0, 2189.514237012869216, -642.0 ],
 					"source" : [ "obj-275", 0 ]
 				}
 
@@ -8020,7 +8024,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-259", 1 ],
-					"midpoints" : [ 2311.514237012869216, -669.0, 2311.514237012869216, -669.0 ],
+					"midpoints" : [ 2311.514237012869216, -669.0, 2304.514237012869216, -669.0 ],
 					"source" : [ "obj-278", 0 ]
 				}
 
@@ -8124,7 +8128,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-319", 0 ],
-					"midpoints" : [ 2030.868252646266228, -699.0, 1999.468252789316921, -699.0 ],
+					"midpoints" : [ 2030.868252646266228, -699.0, 2000.468252789316921, -699.0 ],
 					"source" : [ "obj-292", 0 ]
 				}
 
@@ -8194,7 +8198,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-319", 0 ],
-					"midpoints" : [ 1967.468252789316466, -600.0, 1999.468252789316921, -600.0 ],
+					"midpoints" : [ 1967.468252789316466, -600.0, 2000.468252789316921, -600.0 ],
 					"source" : [ "obj-318", 0 ]
 				}
 
@@ -8202,7 +8206,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-317", 0 ],
-					"midpoints" : [ 2107.468252789316921, -519.0, 2110.423914081209659, -519.0 ],
+					"midpoints" : [ 2108.468252789316921, -519.0, 2110.423914081209659, -519.0 ],
 					"source" : [ "obj-319", 1 ]
 				}
 

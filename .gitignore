@@ -8,3 +8,5 @@ build/
 # python package files
 __pycache__/
 *.egg-info/
+
+.DS_STORE

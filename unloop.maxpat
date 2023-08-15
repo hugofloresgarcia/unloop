@@ -461,8 +461,6 @@
 					"active" : 					{
 						"gain-one" : 0,
 						"input-gain" : 0,
-						"led" : 0,
-						"number" : 0,
 						"panone" : 0,
 						"pantwo" : 0,
 						"playlist~" : 0,
@@ -548,7 +546,7 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 28.666692137718201, 618.5, 558.436703740677331, 387.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.176764070987701, 309.958601193948766, 558.0, 386.0 ],
+					"presentation_rect" : [ 3.176764070987701, 309.958601193948766, 558.0, 429.0 ],
 					"varname" : "vamper[1]",
 					"viewvisibility" : 1
 				}
@@ -945,13 +943,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "IIc.mp3",
-				"bootpath" : "~/projects/alter-ego/alter ego",
-				"patcherrelativepath" : "../alter-ego/alter ego",
-				"type" : "Mp3",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "karma~.mxo",
 				"type" : "iLaX"
 			}

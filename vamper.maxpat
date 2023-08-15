@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -148.0, -1138.0, 1852.0, 1104.0 ],
+		"rect" : [ 34.0, 87.0, 1612.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2261.0, -503.0, 150.0, 39.0 ],
+					"patching_rect" : [ 2230.014237012868762, -541.551244903617771, 150.0, 39.0 ],
 					"text" : "TODO: what do ab this setsize? "
 				}
 
@@ -464,7 +464,7 @@
 						"dropout" : [ 0.0 ],
 						"drygain" : [ -37.405416638017527 ],
 						"feedback" : [ 0 ],
-						"hostname" : [ "http://localhost:7860/" ],
+						"hostname" : [ "https://descript-vampnet.hf.space/" ],
 						"hostname[1]" : [ "/Users/hugo/miniconda3/bin/python" ],
 						"mutebutton" : [ 0 ],
 						"number" : [ 2048 ],
@@ -521,7 +521,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 832.118741652781637, 53.77278764321909, 25.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 246.381390046854222, 307.055701462717025, 36.898284798123541, 36.0 ],
+					"presentation_rect" : [ 244.381390046854222, 344.055701462717025, 36.898284798123541, 36.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 0.85 ],
@@ -650,7 +650,7 @@
 			}
 , 			{
 				"box" : 				{
-					"buffername" : "1037-dry",
+					"buffername" : "1000-dry",
 					"id" : "obj-223",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -1056,7 +1056,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2100.923914081209659, -517.829880556685794, 115.0, 25.0 ],
+					"patching_rect" : [ 2098.923914081209659, -496.0, 115.0, 25.0 ],
 					"text" : "s #0-dry-bufbang"
 				}
 
@@ -1642,7 +1642,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 637.330126234953468, -141.897800678756767, 35.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 120.130248486127812, 325.723026333541839, 46.054894212927366, 20.0 ],
+					"presentation_rect" : [ 118.130248486127812, 362.723026333541839, 46.054894212927366, 20.0 ],
 					"text" : "reset",
 					"textjustification" : 1
 				}
@@ -1669,7 +1669,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 591.830126234953468, -141.897800678756767, 34.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 68.194069683712087, 325.723026333541839, 46.054894212927366, 20.0 ],
+					"presentation_rect" : [ 66.194069683712087, 362.723026333541839, 46.054894212927366, 20.0 ],
 					"text" : "stop",
 					"textjustification" : 1
 				}
@@ -1696,7 +1696,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 918.912567000000081, -141.897800678756767, 34.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 12.321806656665899, 325.723026333541839, 49.232472689372798, 20.0 ],
+					"presentation_rect" : [ 10.321806656665899, 362.723026333541839, 49.232472689372798, 20.0 ],
 					"text" : "play",
 					"textjustification" : 1
 				}
@@ -2133,7 +2133,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1642.815000946338841, 190.852214571243167, 79.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 176.965978993775707, 299.055701462717025, 56.0, 20.0 ],
+					"presentation_rect" : [ 174.965978993775707, 336.055701462717025, 56.0, 20.0 ],
 					"text" : "feedback?"
 				}
 
@@ -2232,7 +2232,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1613.947652086662401, 194.027275471363055, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 192.447704388501506, 321.055701462717025, 24.0, 24.0 ],
+					"presentation_rect" : [ 190.447704388501506, 358.055701462717025, 24.0, 24.0 ],
 					"varname" : "feedback"
 				}
 
@@ -2435,7 +2435,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1050.862059354782104, -547.093309270595455, 67.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.790440352184305, 359.867317807658992, 131.153847694396973, 20.0 ],
+					"presentation_rect" : [ 3.790440352184305, 396.867317807658992, 131.153847694396973, 20.0 ],
 					"text" : "powered by VampNet 🤖"
 				}
 
@@ -2452,7 +2452,7 @@
 					"patching_rect" : [ 719.108216008411546, -606.79802911207571, 68.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 192.447704388501506, 354.811432538719146, 106.958203274616153, 30.0 ],
+					"presentation_rect" : [ 190.447704388501506, 391.811432538719146, 106.958203274616153, 30.0 ],
 					"text" : "\n flores electronics 🌻"
 				}
 
@@ -2481,7 +2481,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 617.330147584953465, 283.257348481628469, 74.999957300000233, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 12.321806656665899, 299.055701462717025, 153.863336042389278, 20.0 ],
+					"presentation_rect" : [ 10.321806656665899, 336.055701462717025, 153.863336042389278, 20.0 ],
 					"textjustification" : 1
 				}
 
@@ -3347,13 +3347,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Helvetica",
+					"fontsize" : 8.0,
 					"id" : "obj-86",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 578.162662739570578, 734.552718112491675, 285.0, 18.0 ],
+					"patching_rect" : [ 578.162662739570578, 734.552718112491675, 193.0, 14.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 667.925926208496094, 541.922295077568151, 252.0, 18.0 ],
+					"presentation_rect" : [ 317.06651594633729, 380.295269177986029, 171.0, 14.0 ],
 					"text" : "path to python installation (see the README)"
 				}
 
@@ -3373,15 +3374,16 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Helvetica",
+					"fontsize" : 8.0,
 					"id" : "obj-79",
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 626.244205832481384, 929.200908949352197, 216.0, 23.01412570476532 ],
+					"patching_rect" : [ 626.244205832481384, 929.200908949352197, 147.0, 23.01412570476532 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 667.925926208496094, 575.494537922012341, 252.0, 26.811594009399414 ],
+					"presentation_rect" : [ 317.06651594633729, 396.867317807658992, 223.299998223781586, 19.811594009399414 ],
 					"text" : "/Users/hugo/miniconda3/bin/python",
 					"varname" : "hostname[1]"
 				}
@@ -3595,7 +3597,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1725.403408636680524, 2235.0, 420.0, 25.0 ],
-					"text" : "/Users/hugo/projects/unloop/audio/vampnet-output-1037.wav"
+					"text" : "/Users/hugo/projects/unloop/audio/vampnet-output-1000.wav"
 				}
 
 			}
@@ -3714,7 +3716,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 999.402436137199402, 1315.527656922363349, 1439.0, 41.0 ],
-					"text" : "/Users/hugo/miniconda3/bin/python /Users/hugo/projects/unloop/unloop/unloop.py \"--audio_path /Users/hugo/projects/unloop/audio/vampnet-input-1037.wav\" \"--output_path /Users/hugo/projects/unloop/audio/vampnet-output-1037.wav\" \"--servername http://localhost:7860/\" \"--temp 1.0000\" \"--periodic_hint_freq 0\" \"--onset_mask_width 0\" \"--beat_mask_ms 124\" \"--downbeats_only 0\" \"--typical_filter 0\" \"--num_steps 36\" \"--checkpoint_name spotdl\" \"--dropout 0.0000\" \"--seed 0\""
+					"text" : "/Users/hugo/miniconda3/bin/python vamp.py \"--audio_path /Users/hugo/projects/unloop/audio/vampnet-input-1000.wav\" \"--output_path /Users/hugo/projects/unloop/audio/vampnet-output-1000.wav\" \"--servername https://descript-vampnet.hf.space/\" \"--temp 1.0000\" \"--periodic_hint_freq 0\" \"--onset_mask_width 0\" \"--beat_mask_ms 124\" \"--downbeats_only 0\" \"--typical_filter 0\" \"--num_steps 36\" \"--checkpoint_name spotdl\" \"--dropout 0.0000\" \"--seed 0\""
 				}
 
 			}
@@ -4619,7 +4621,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1724.403408636680524, 2021.789633750915527, 644.0, 25.0 ],
-					"text" : "/Users/hugo/projects/unloop/audio/vampnet-output-1037.wav"
+					"text" : "/Users/hugo/miniconda3/bin/python: can't open file '/Users/hugo/vamp.py': [Errno 2] No such file or directory"
 				}
 
 			}
@@ -4803,7 +4805,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1753.947652086662174, 710.175425591980002, 381.273833999999852, 25.0 ],
-					"text" : "/Users/hugo/projects/unloop/audio/vampnet-input-1037.wav"
+					"text" : "/Users/hugo/projects/unloop/audio/vampnet-input-1000.wav"
 				}
 
 			}
@@ -5020,7 +5022,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 670.11874165278175, -816.098181235050106, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.750678778048155, 0.515938870571063, 301.919286999305882, 384.518520593643188 ],
+					"presentation_rect" : [ 0.750678778048155, 0.515938870571063, 301.919286999305882, 428.518520593643188 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -6231,7 +6233,7 @@
 					"patching_rect" : [ 1930.5, 1024.5, 159.0, 30.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 373.366514170118876, 354.811432538719146, 161.0, 21.86747927833926 ],
-					"text" : "http://localhost:7860/",
+					"text" : "https://descript-vampnet.hf.space/",
 					"varname" : "hostname"
 				}
 
@@ -6455,7 +6457,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 835.322802960799208, -644.551244903617771, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 298.7202114466387, 283.150642724042882, 258.012624892791905, 101.716491869346555 ],
+					"presentation_rect" : [ 298.7202114466387, 283.150642724042882, 258.012624892791905, 145.716491869346555 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -8206,7 +8208,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-317", 0 ],
-					"midpoints" : [ 2108.468252789316921, -519.0, 2110.423914081209659, -519.0 ],
+					"midpoints" : [ 2108.468252789316921, -519.0, 2108.423914081209659, -519.0 ],
 					"source" : [ "obj-319", 1 ]
 				}
 

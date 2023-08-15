@@ -53,45 +53,6 @@
 			}
 , 			{
 				"box" : 				{
-					"basictuning" : 440,
-					"data" : 					{
-						"clips" : [ 							{
-								"absolutepath" : "/Users/hugo/projects/alter-ego/alter ego/IIc.mp3",
-								"filename" : "IIc.mp3",
-								"filekind" : "audiofile",
-								"id" : "u874006334",
-								"loop" : 0,
-								"content_state" : 								{
-
-								}
-
-							}
- ]
-					}
-,
-					"followglobaltempo" : 0,
-					"formantcorrection" : 0,
-					"id" : "obj-16",
-					"maxclass" : "playlist~",
-					"mode" : "basic",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"originallength" : [ 0.0, "ticks" ],
-					"originaltempo" : 120.0,
-					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 106.352908134460449, 82.359335993377726, 150.0, 30.0 ],
-					"pitchcorrection" : 0,
-					"presentation" : 1,
-					"presentation_rect" : [ 18.330566308996367, 120.378341401966054, 150.0, 30.0 ],
-					"quality" : "basic",
-					"timestretch" : [ 0 ],
-					"varname" : "playlist~"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontsize" : 18.0,
 					"id" : "obj-10",
 					"maxclass" : "comment",
@@ -273,35 +234,6 @@
 			}
 , 			{
 				"box" : 				{
-					"channels" : 1,
-					"id" : "obj-6",
-					"lastchannelcount" : 0,
-					"maxclass" : "live.gain~",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "signal", "", "float", "list" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 272.385044008056866, 1060.307358528526265, 65.0, 94.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 419.951377719640732, 175.578341092021901, 65.0, 120.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "two",
-							"parameter_mmax" : 12.0,
-							"parameter_mmin" : -70.0,
-							"parameter_shortname" : "one wet",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4
-						}
-
-					}
-,
-					"varname" : "two"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"annotation" : "",
 					"id" : "obj-7",
 					"maxclass" : "live.dial",
@@ -311,7 +243,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 347.718367486755596, 1078.974053050430257, 35.0, 54.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 434.951377719640732, 114.578341092021901, 35.0, 54.0 ],
+					"presentation_rect" : [ 342.951377719640732, 235.578341092021901, 35.0, 54.0 ],
 					"prototypename" : "pan",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -319,7 +251,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "pantwo",
 							"parameter_mmax" : 1.0,
-							"parameter_shortname" : "one wet",
+							"parameter_shortname" : "pan wet",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
 						}
@@ -340,35 +272,6 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 308.718367486755596, 1167.666694521903992, 58.0, 22.0 ],
 					"text" : "min.pan~"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"channels" : 1,
-					"id" : "obj-4",
-					"lastchannelcount" : 0,
-					"maxclass" : "live.gain~",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "signal", "", "float", "list" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 28.666692137718201, 1056.666694521903992, 65.0, 94.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 352.785827050138778, 175.578341092021901, 65.0, 120.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "gain-one",
-							"parameter_mmax" : 12.0,
-							"parameter_mmin" : -70.0,
-							"parameter_shortname" : "one dry",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4
-						}
-
-					}
-,
-					"varname" : "gain-one"
 				}
 
 			}
@@ -412,29 +315,9 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1575.25, 440.307358528526265, 135.0, 22.0 ],
 					"restore" : 					{
-						"gain-one" : [ -24.803149606299208 ],
 						"input-gain" : [ 0.0 ],
 						"panone" : [ 0.283464566929134 ],
-						"pantwo" : [ 0.503937007874016 ],
-						"playlist~" : [ 							{
-								"data" : 								{
-									"clips" : [ 										{
-											"absolutepath" : "/Users/hugo/projects/alter-ego/alter ego/IIc.mp3",
-											"filename" : "IIc.mp3",
-											"filekind" : "audiofile",
-											"id" : "u874006334",
-											"loop" : 0,
-											"content_state" : 											{
-
-											}
-
-										}
- ]
-								}
-
-							}
- ],
-						"two" : [ -18.99212598425197 ]
+						"pantwo" : [ 0.503937007874016 ]
 					}
 ,
 					"text" : "autopattr @autoname 1",
@@ -459,12 +342,9 @@
 , 			{
 				"box" : 				{
 					"active" : 					{
-						"gain-one" : 0,
 						"input-gain" : 0,
 						"panone" : 0,
-						"pantwo" : 0,
-						"playlist~" : 0,
-						"two" : 0
+						"pantwo" : 0
 					}
 ,
 					"id" : "obj-257",
@@ -496,7 +376,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 104.000015616416931, 1075.333389043807983, 35.0, 54.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 367.785827050138778, 114.578341092021901, 35.0, 54.0 ],
+					"presentation_rect" : [ 296.785827050138778, 235.578341092021901, 35.0, 54.0 ],
 					"prototypename" : "pan",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -504,7 +384,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "panone",
 							"parameter_mmax" : 1.0,
-							"parameter_shortname" : "one dry",
+							"parameter_shortname" : "pan dry",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
 						}
@@ -544,7 +424,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 28.666692137718201, 618.5, 558.436703740677331, 387.0 ],
+					"patching_rect" : [ 28.666692137718201, 302.5, 558.436703740677331, 387.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.176764070987701, 309.958601193948766, 558.0, 429.0 ],
 					"varname" : "vamper[1]",
@@ -578,7 +458,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 585.0, 342.0, 128.0, 128.0 ],
+					"patching_rect" : [ 785.0, 223.0, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.088382035493851, 7.0, 554.176764070987701, 300.958601193948766 ],
 					"proportion" : 0.5
@@ -588,14 +468,14 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
+					"destination" : [ "obj-25", 0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
+					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-1", 1 ]
 				}
 
@@ -604,13 +484,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-136", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -651,13 +524,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-25", 0 ],
-					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-173", 0 ],
 					"source" : [ "obj-45", 0 ]
 				}
@@ -667,13 +533,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-45", 0 ],
 					"source" : [ "obj-46", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"source" : [ "obj-6", 0 ]
 				}
 
 			}
@@ -747,10 +606,8 @@
 			"obj-1::obj-69" : [ "beatwidth[1]", "beat (ms)", 0 ],
 			"obj-1::obj-70" : [ "numsteps[1]", "steps", 0 ],
 			"obj-2" : [ "input-gain", "input gain", 0 ],
-			"obj-27" : [ "panone", "one dry", 0 ],
-			"obj-4" : [ "gain-one", "one dry", 0 ],
-			"obj-6" : [ "two", "one wet", 0 ],
-			"obj-7" : [ "pantwo", "one wet", 0 ],
+			"obj-27" : [ "panone", "pan dry", 0 ],
+			"obj-7" : [ "pantwo", "pan wet", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,

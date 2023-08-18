@@ -47,7 +47,7 @@ def vamp(
         bool(typical_filter),	# bool  in 'typical filtering ' Checkbox component
         0.15,	# int | float (numeric value between 0.01 and 0.99) in 'typical mass (should probably stay between 0.1 and 0.5)' Slider component
         1,	# int | float (numeric value between 1 and 256) in 'typical min tokens (should probably stay between 1 and 256)' Slider component
-        0.75, # SAMPLE CUTOFF
+        1.0, # SAMPLE CUTOFF
         True,	# bool  in 'use coarse2fine' Checkbox component
         num_steps,	# int | float (numeric value between 1 and 128) in 'number of steps (should normally be between 12 and 36)' Slider component
         dropout,	# int | float (numeric value between 0.0 and 1.0) in 'mask dropout' Slider component

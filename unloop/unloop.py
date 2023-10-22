@@ -17,6 +17,8 @@ def vamp(
     typical_filter: int = 0, 
     num_steps: int = 32,
     checkpoint_name: str = "spotdl", 
+    codebook_mask: int = 9,
+    model_choice: str = "default",
     dropout: float = 0.0,
     seed: int = 0,
 ):
@@ -34,6 +36,7 @@ def vamp(
         onset_mask_width,	# int | float (numeric value between 0 and 20) in 'onset mask width (multiplies with the periodic mask, 1 step ~= 10milliseconds) ' Slider component
         beat_mask_ms,	# int | float (numeric value between 0 and 200) in 'beat mask width (in milliseconds)' Slider component
         bool(downbeats_only),	# bool  in 'beat mask downbeats only?' Checkbox component
+        codebook_mask, # codebook mask
         0.0, # pitch shift amount
         1.0,	# int | float (numeric value between 0.0 and 1.0) in 'random mask intensity. (If this is less than 1, scatters prompts throughout the audio, should be between 0.9 and 1.0)' Slider component
         1,	# int | float (numeric value between 1 and 20) in 'periodic prompt width (steps, 1 step ~= 10milliseconds)' Slider component
@@ -41,7 +44,7 @@ def vamp(
         1.0,	# int | float (numeric value between 0 and 64) in 'time stretch factor' Slider component
         0,	# int | float (numeric value between 0.0 and 10.0) in 'prefix hint length (seconds)' Slider component
         0,	# int | float (numeric value between 0.0 and 10.0) in 'suffix hint length (seconds)' Slider component
-        2.0,	# int | float (numeric value between 0.0 and 10.0) in 'mask temperature' Slider component
+        1.5,	# int | float (numeric value between 0.0 and 10.0) in 'mask temperature' Slider component
         temp,	# int | float (numeric value between 0.1 and 2.0) in 'sample temperature' Slider component
         0,	# int | float (numeric value between 0.0 and 1.0) in 'top p (0.0 = off)' Slider component
         bool(typical_filter),	# bool  in 'typical filtering ' Checkbox component
@@ -52,6 +55,7 @@ def vamp(
         num_steps,	# int | float (numeric value between 1 and 128) in 'number of steps (should normally be between 12 and 36)' Slider component
         dropout,	# int | float (numeric value between 0.0 and 1.0) in 'mask dropout' Slider component
         seed,	# int | float  in 'seed (0 for random)' Number component
+        model_choice,
         api_name="/vamp", 
         result_callbacks=save_output
     )

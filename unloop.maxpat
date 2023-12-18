@@ -424,7 +424,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 28.666692137718201, 302.5, 558.436703740677331, 387.0 ],
+					"patching_rect" : [ 28.666692137718201, 302.5, 558.436703740677331, 433.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.176764070987701, 309.958601193948766, 558.0, 429.0 ],
 					"varname" : "vamper[1]",
@@ -813,7 +813,7 @@
 			}
 , 			{
 				"name" : "vamper.maxpat",
-				"bootpath" : "~/projects/unloop",
+				"bootpath" : "~/unloop",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

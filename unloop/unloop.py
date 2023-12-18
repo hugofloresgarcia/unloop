@@ -2,7 +2,7 @@ import argbind
 import shutil
 import time
 from gradio_client import Client
-
+from pathlib import Path
 
 
 def vamp(
@@ -21,6 +21,7 @@ def vamp(
     seed: int = 0,
 ):
     # print(dir(Client))
+    Path(audio_path).parent.mkdir(exist_ok=True, parents=True)
     client = Client(servername, verbose=False)
 
 
@@ -43,7 +44,7 @@ def vamp(
         0,	# int | float (numeric value between 0.0 and 10.0) in 'suffix hint length (seconds)' Slider component
         2.0,	# int | float (numeric value between 0.0 and 10.0) in 'mask temperature' Slider component
         temp,	# int | float (numeric value between 0.1 and 2.0) in 'sample temperature' Slider component
-        0,	# int | float (numeric value between 0.0 and 1.0) in 'top p (0.0 = off)' Slider component
+        0.9,	# int | float (numeric value between 0.0 and 1.0) in 'top p (0.0 = off)' Slider component
         bool(typical_filter),	# bool  in 'typical filtering ' Checkbox component
         0.15,	# int | float (numeric value between 0.01 and 0.99) in 'typical mass (should probably stay between 0.1 and 0.5)' Slider component
         1,	# int | float (numeric value between 1 and 256) in 'typical min tokens (should probably stay between 1 and 256)' Slider component

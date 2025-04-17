@@ -1,5 +1,8 @@
 # unloop
 
+# NOTE!!!
+this is an archived repo. unloop is now included in the [main branch of vampnet](https://github.com/hugofloresgarcia/vampnet.git)
+
 <img src="assets/fullUI.png" width="60%">
 
 unloop is a co-creative looper that uses generative modeling to **not** repeat itself.
